@@ -2,6 +2,7 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
+const favicon = require('serve-favicon');
 const ejs = require('ejs');
 const logger = require('morgan');
 
