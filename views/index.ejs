@@ -2,11 +2,23 @@
 <html>
 
   <% include ./partials/head %>
-  
+
   <body>
-    <div id="myFullpage">
+    <div class="sidenav">
+      <a href="#airport" id="airport-sidenav">KNO</a>
+      <a href="#eat" id="eat-sidenav">Eat</a>
+      <a href="#sightsee" id="sightsee-sidenav">Sightsee</a>
+      <a href="#sleep" id="sleep-sidenav">Sleep</a>
+      <a href="#souvenir" id="souvenir-sidenav">Souvenir</a>
+    </div>
+
+    <div id="myFullpage" class="main">
       <div class="section">Airport</div>
       <div class="section">Eat</div>
+      <div class="section">Sleep</div>
+      <div class="section">Sightsee</div>
+      <div class="section">Souvenir</div>
+      <div class="section active">MnJ</div>
     </div>
 
     <% include ./partials/scripts %>
