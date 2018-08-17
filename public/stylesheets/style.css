@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #183d74;
 }
 
 a {
@@ -55,6 +56,7 @@ ul {
   -webkit-border-radius: 13px 13px 13px 13px;
   border-radius: 13px 13px 13px 13px;
   background-color: #eeeeee;
+  color: #9d1e31;
 }
 
 .sidenav .sidenav-item a {
@@ -70,7 +72,35 @@ ul {
 }
 
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
+
+/* Mira Bul */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sidemenu{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.sidemenu-item{
+	padding-bottom : 10px;
+	width: 200px;
+	height: 25px;
+}
+
+.sidemenu-icon{
+	width: 20px;
+	height: 20px;
+
+}
+
+.sidemenu-text{
+	position : relative;
+	display: inline-block;
+	top: -6px;
+	padding-left: 15px;
+	font-size: 10px;
 }
