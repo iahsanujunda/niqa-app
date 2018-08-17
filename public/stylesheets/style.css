@@ -15,7 +15,7 @@ ul {
 
 .sidenav {
   height: 100%;
-  width: 21em;
+  width: 26em;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -24,7 +24,7 @@ ul {
   overflow-x: hidden;
   padding-top: 10em;
   border-right: 1px dashed #183d74;
-
+  display: inline-block;
   /* background-image: linear-gradient(#183d74 25%, white 75%);
   background-position: right;
   background-size: 1px 18px;
@@ -35,7 +35,7 @@ ul {
   width: auto;
   height: auto;
   padding: 2px 24px;
-  margin: 0 50px;
+  margin: 3px 50px;
 }
 
 .sidenav li:hover{
@@ -56,6 +56,9 @@ ul {
   -webkit-border-radius: 13px 13px 13px 13px;
   border-radius: 13px 13px 13px 13px;
   background-color: #eeeeee;
+}
+
+.sidenav li.active a {
   color: #9d1e31;
 }
 
@@ -65,8 +68,19 @@ ul {
   display: block;
 }
 
+.sidenav .sidenav-item .sidenav-icon {
+  width: 20px;
+	height: 20px;
+}
+
+.sidenav .sidenav-item .sidenav-text {
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 13px;
+}
+
 .main {
-  margin-left: 21em; /* Same as the width of the sidenav */
+  margin-left: 26em; /* Same as the width of the sidenav */
   padding: 0px 10px;
   background-color: #f1f1f1;
 }
@@ -78,29 +92,4 @@ ul {
 img {
     max-width: 100%;
     max-height: 100%;
-}
-
-.sidemenu{
-	vertical-align: top;
-	display: inline-block;
-}
-
-.sidemenu-item{
-	padding-bottom : 10px;
-	width: 200px;
-	height: 25px;
-}
-
-.sidemenu-icon{
-	width: 20px;
-	height: 20px;
-
-}
-
-.sidemenu-text{
-	position : relative;
-	display: inline-block;
-	top: -6px;
-	padding-left: 15px;
-	font-size: 10px;
 }
