@@ -1,5 +1,6 @@
 body {
   padding: 50px;
+  font-family: 'Quicksand';
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #183d74;
 }
@@ -22,7 +23,7 @@ ul {
   left: 0;
   background-color: #fff;
   overflow-x: hidden;
-  padding-top: 10em;
+  padding-top: 14em;
   border-right: 1px dashed #183d74;
   display: inline-block;
   /* background-image: linear-gradient(#183d74 25%, white 75%);
@@ -34,8 +35,8 @@ ul {
 .sidenav li {
   width: auto;
   height: auto;
-  padding: 2px 24px;
-  margin: 3px 50px;
+  padding: 0 24px;
+  margin: 2px 50px;
 }
 
 .sidenav li:hover{
@@ -69,15 +70,37 @@ ul {
 }
 
 .sidenav .sidenav-item .sidenav-icon {
+  vertical-align: middle;
   width: 20px;
-	height: 20px;
+  height: 20px;
 }
 
 .sidenav .sidenav-item .sidenav-text {
-	display: inline-block;
+  display: inline-block;
+  vertical-align: middle;
 	padding-left: 15px;
-	font-size: 13px;
+	font-size: 12px;
 }
+
+.sidenav #main-sidenav {
+  margin: 0 auto;
+  width: 66%;
+}
+
+.sidenav #main-sidenav img {
+  margin-top: 30px;
+  position: absolute;
+  width: 66%;
+}
+
+.sidenav #main-sidenav #main-bg {
+  z-index: 1;
+}
+
+.sidenav #main-sidenav #text-bg {
+  z-index: 3;
+}
+
 
 .main {
   margin-left: 26em; /* Same as the width of the sidenav */
@@ -86,10 +109,8 @@ ul {
 }
 
 
-
-
 /* Mira Bul */
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }

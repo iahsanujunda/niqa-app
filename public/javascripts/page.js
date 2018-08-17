@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$('#myFullpage').fullpage({
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
     anchors: ['airport', 'eat', 'sightsee', 'sleep', 'souvenir', 'mnj'],
@@ -23,6 +24,9 @@ $(document).ready(function() {
       } else if (origin.index == 4) {
         $('#souvenir-sidenav').removeClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift.png');
+      } else if (origin.index == 5) {
+        $('#main-bg').css('display', 'none');
+        $('#text-bg').attr('src', 'images/mirajunda.png');
       }
 
       if(destination.index == 0){
@@ -40,7 +44,11 @@ $(document).ready(function() {
       } else if (destination.index == 4) {
         $('#souvenir-sidenav').addClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift-active.png');
+      } else if (destination.index == 5) {
+        $('#main-bg').css('display', 'block');
+        $('#text-bg').attr('src', 'images/mirajunda-aktif.png');
       }
     }
-	});
+  });
+
 });
