@@ -145,15 +145,14 @@ img {
 }
 
 .title {
+  margin: 0 20px;
   position: relative;
-  left: -12px;
 }
 
 .address {
+  margin: 15px 20px 0 20px;
   position: relative;
-  margin-top: 15px;
   padding-left: 3px;
-  left: -12px;
 }
 
 .content-body {
@@ -165,9 +164,13 @@ img {
 }
 
 .gambar {
+  margin: 0 20px 5px 20px;
   min-height: 280px;
-  margin-bottom: 5px;
   border: 1px solid #183d74;
+}
+
+.gambar-credit {
+  margin: 0 20px;
 }
 
 h6 .cost {
@@ -211,12 +214,14 @@ h6 .cost {
 
 
 /*
- *  3. Main Section Layout
+ *  3. Invitation Section Layout
  */
 
-.landing-main-title {
+.invitation-main-title {
+  text-align: center;
   font-size: 4em;
 }
+
 
 
 /*
