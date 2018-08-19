@@ -5,8 +5,7 @@
 
 body {
   padding: 50px;
-  font-family: 'Quicksand';
-  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 10px 'Quicksand', sans-serif;
   color: #183d74;
 }
 
