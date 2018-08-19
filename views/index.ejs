@@ -4,7 +4,7 @@
   <% include ./partials/head %>
 
   <body>
-    <div class="sidenav">
+    <div class="sidenav mob-sidenav">
       <ul>
         <li id="airport-sidenav" class="sidenav-item">
           <img id="airport-icon" class="sidenav-icon" src="images/icon-kno.png"/>
@@ -39,9 +39,26 @@
       </ul>
     </div>
 
-    <div id="myFullpage" class="main">
-      <div class="section">Airport</div>
-      <div class="section">Eat</div>
+    <div id="myFullpage" class="main mob-main">
+      <div class="section">
+        <div class="slide" data-anchor="airport">
+          <div class="container col-md-10">KNO</div>
+        </div>
+        <div class="slide" data-anchor="airport-train">
+          <div class="container col-md-10">Airport Train</div>
+        </div>
+        <div class="slide" data-anchor="bus">
+          <div class="container col-md-10">Bus</div>
+        </div>
+        <div class="slide" data-anchor="taksi">
+          <div class="container col-md-10">Taksi</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="slide" data-anchor="eat">
+          <div class="container col-md-10">Eat</div>
+        </div>
+      </div>
       <div class="section">Sleep</div>
       <div class="section">Sightsee</div>
       <div class="section">Souvenir</div>
