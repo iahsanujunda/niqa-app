@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45871187-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-45871187-2');
+  </script>
+
 
   <% include ./partials/head %>
 
@@ -110,15 +120,12 @@
                 <h6 class="description"><%= eats[i].description %></h6>
               </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
             <div class="row rating">
               <div class="col-md-5">
                 <div class="row">Mira says:</div>
                 <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].mira %></div>
               </div>
-              <div class="col-md-5 ml-auto">
+              <div class="col-md-5 ml-auto junda">
                 <div class="row">Junda says:</div>
                 <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].junda %></div>
               </div>
@@ -157,15 +164,15 @@
             <div class="title"><h3><strong><%= souvenirs[i].title %></strong></h3></div>
             <div class="address">
               <img class="address-icon" src="images/icon-location.png"/>
-              <a href="<%= eats[i].latlng %>">
-                <h6 class="address-text"><%= eats[i].address %></h6>
+              <a href="<%= souvenirs[i].latlng %>">
+                <h6 class="address-text"><%= souvenirs[i].address %></h6>
               </a>
             </div>
             <div class="content-body row">
               <div class="col-md-4">
                 <div class="row">
                   <div class="gambar col-md-12">
-                    Image
+                    <img class="gambar-img" src="<%= souvenirs[i].images %>"/>
                   </div>
                   <div class="gambar-credit col-md-12">
                     Credit: <%= souvenirs[i].credit %>
@@ -174,23 +181,18 @@
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-7">
-                <h6>Average Cost :
+                <h6 class="cost">Average Cost :
                   <span class="cost">&nbsp; <%= souvenirs[i].cost %></span>
-                </h6>                
-                <br/>
-                <br/>
-                <h6><%= souvenirs[i].description %></h6>
+                </h6>
+                <h6 class="description"><%= souvenirs[i].description %></h6>
               </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
             <div class="row rating">
               <div class="col-md-5">
                 <div class="row">Mira says:</div>
                 <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].mira %></div>
               </div>
-              <div class="col-md-5 ml-auto">
+              <div class="col-md-5 ml-auto junda">
                 <div class="row">Junda says:</div>
                 <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].junda %></div>
               </div>

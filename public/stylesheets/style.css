@@ -185,10 +185,6 @@ img {
   margin-top: 5em;
 }
 
-.content-body {
-  margin-top: 5em;
-}
-
 .gambar-img {
   object-fit: cover;
   margin: 0 20px 5px 20px;
@@ -209,7 +205,7 @@ h6 .cost {
 }
 
 .rating {
-  margin: 0 3em;
+  margin: 2em 3em 0;
   font-size: 1.4em;
   color: darkgray;
 }
@@ -324,11 +320,24 @@ h6 .cost {
     padding: 0px 0px;
   }
 
+  .title {
+    top: -30px;
+  }
+
+  .address {
+    top: -25px;
+  }
+
+  .content-body {
+    margin-top: 3em;
+  }
+
   .description {
     display: none;
   }
 
   .cost {
+    margin-top: 20px;
     text-align: center;
   }
 
@@ -342,5 +351,17 @@ h6 .cost {
 
   .gambar-credit {
     text-align: center;
+  }
+
+  .rating {
+    margin-top: 1em;
+  }
+
+  .saying {
+    margin-top: 4px;
+  }
+
+  .junda {
+    margin-top: 14px;
   }
 }

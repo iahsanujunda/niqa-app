@@ -14,8 +14,6 @@ router.get('/', function(req, res, next) {
   });
 });
 
-console.log(content[1].eat.images);
-
 
 /* GET sample page. */
 router.get('/sample', function(req, res, next) {
