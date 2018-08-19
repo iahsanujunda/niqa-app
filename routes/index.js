@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
   });
 });
 
-// console.log(content[1].eat);
+console.log(content[1].eat.images);
 
 
 /* GET sample page. */
