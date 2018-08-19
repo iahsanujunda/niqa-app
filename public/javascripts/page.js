@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() {  
 
 	$('#myFullpage').fullpage({
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
@@ -25,8 +25,14 @@ $(document).ready(function() {
         $('#souvenir-sidenav').removeClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift.png');
       } else if (origin.index == 5) {
-        $('#main-bg').css('display', 'none');
-        $('#text-bg').attr('src', 'images/mirajunda.png');
+        $('#text-bg').hover(function() {
+          $('#main-hidden').show();
+        }, function() {
+          $('#main-hidden').hide();
+        });
+
+        $('#main-hidden').hide();
+        $('#text-bg').attr('src', 'images/mirajunda.png')
       }
 
       if(destination.index == 0){
@@ -45,10 +51,14 @@ $(document).ready(function() {
         $('#souvenir-sidenav').addClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift-active.png');
       } else if (destination.index == 5) {
-        $('#main-bg').css('display', 'block');
-        $('#text-bg').attr('src', 'images/mirajunda-aktif.png');
+        $('#text-bg').hover(function() {
+          $('#main-hidden').show();
+        }, function() {
+          $('#main-hidden').show();
+        });
+        $('#main-hidden').show();
+        $('#text-bg').attr('src', 'images/mirajunda-aktif.png')
       }
     }
   });
-
 });
