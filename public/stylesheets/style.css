@@ -109,6 +109,13 @@ ul {
   z-index: 3;
 }
 
+.sidenav #footer-sidenav {
+  text-align: center;
+  position: absolute;
+  left: 7em;
+  bottom: 2em;
+}
+
 .main {
   margin-left: 26em; /* Same as the width of the sidenav */
   padding: 0px 10px;
@@ -129,6 +136,7 @@ img {
 
 .container {
   min-height: 85%;
+  position: relative;
 }
 
 .title-kno {
@@ -239,10 +247,61 @@ h6 .cost {
   font-size: 4em;
 }
 
-.parallax-window {
-  /* min-height: 600px; */
+#invitation-main .fp-bg {
+  background-image: url('../images/bg-london.png');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 50% 25%;
 }
 
+
+#para-muka {
+  position: absolute;
+  max-height: 60%;
+  width: 60%;
+  display: block;
+  left: 20%;
+  top: 17%;
+  z-index: 1;
+}
+
+#para-bus {
+  position: absolute;
+  max-height: 50%;
+  width: 50%;
+  display: block;
+  top: 27%;
+  right: 23%;
+  z-index: 3;
+}
+
+#para-phone {
+  position: absolute;
+  max-height: 50%;
+  width: 50%;
+  display: block;
+  top: 27%;
+  left: 20%;
+  z-index: 3;
+}
+
+@media (max-width: 576px) {
+  #invitation-main .fp-bg {
+    background-size: 90%;
+    background-position: 50% 30%;
+  }
+
+  #para-bus {
+    top: 23%;
+    right: 23%;
+  }
+
+  #para-phone {
+    top: 23%;
+    left: 20%;
+  }
+
+}
 
 /*
  *  4. Responsive
@@ -257,5 +316,18 @@ h6 .cost {
   .mob-main {
     margin-left: 0;
     padding: 0px 0px;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .cost {
+    text-align: center;
+  }
+
+  .gambar {
+    max-width: 85% !important;
+    height: auto !important;
   }
 }
