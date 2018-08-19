@@ -8,13 +8,13 @@ const content = require('./../public/text/content.json');
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Mira and Junda',
-    site: 'Mira and Junda Wedding',
+    site: 'Mira and Junda\'s Wedding',
     eats: content[1].eat,
     souvenirs: content[4].souvenir
   });
 });
 
-console.log(content[1].eat);
+// console.log(content[1].eat);
 
 
 /* GET sample page. */

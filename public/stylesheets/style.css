@@ -156,7 +156,21 @@ img {
 .address {
   margin: 15px 20px 0 20px;
   position: relative;
-  padding-left: 3px;
+  display: block;
+}
+
+.address .address-icon {
+  vertical-align: middle;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.address .address-text {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 6px;
+  margin-bottom: 0;
+  text-decoration: underline;
 }
 
 .content-body {
@@ -170,7 +184,6 @@ img {
 .gambar {
   margin: 0 20px 5px 20px;
   min-height: 280px;
-  border: 1px solid #183d74;
 }
 
 .gambar-credit {

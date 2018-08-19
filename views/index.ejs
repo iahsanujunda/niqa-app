@@ -81,8 +81,9 @@
           <div class="container col-md-10">
             <div class="title"><h3><strong><%= eats[i].title %></strong></h3></div>
             <div class="address">
+              <img class="address-icon" src="images/icon-location.png"/>
               <a href="<%= eats[i].latlng %>">
-                <h6><%= eats[i].address %></h6>
+                <h6 class="address-text"><%= eats[i].address %></h6>
               </a>
             </div>
             <div class="content-body row">
@@ -152,8 +153,9 @@
           <div class="container col-md-10">
             <div class="title"><h3><strong><%= souvenirs[i].title %></strong></h3></div>
             <div class="address">
-              <a href="<%= souvenirs[i].latlng %>">
-                <h6><%= souvenirs[i].address %></h6>
+              <img class="address-icon" src="images/icon-location.png"/>
+              <a href="<%= eats[i].latlng %>">
+                <h6 class="address-text"><%= eats[i].address %></h6>
               </a>
             </div>
             <div class="content-body row">
