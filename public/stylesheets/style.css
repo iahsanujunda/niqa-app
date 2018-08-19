@@ -51,7 +51,7 @@ ul {
   -moz-border-radius-bottomleft: 13px;
   -webkit-border-radius: 13px 13px 13px 13px;
   border-radius: 13px 13px 13px 13px;
-  background-color: #eeeeee;
+  background-color: #e4e4e4;
 }
 
 .sidenav li.active {
@@ -61,7 +61,7 @@ ul {
   -moz-border-radius-bottomleft: 13px;
   -webkit-border-radius: 13px 13px 13px 13px;
   border-radius: 13px 13px 13px 13px;
-  background-color: #eeeeee;
+  background-color: #e4e4e4;
 }
 
 .sidenav li.active a {
@@ -126,6 +126,23 @@ img {
 
 .container {
   min-height: 85%;
+}
+
+.title-kno {
+  text-align: center;
+  font-size: 2.8em;
+}
+
+.desc-kno {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+.icon-kno {
+  display: block;
+  margin: auto;
+  height: 30em;
 }
 
 .title {
@@ -193,8 +210,18 @@ h6 .cost {
 }
 
 
+
 /*
- *  3. Responsive
+ *  3. Main Section Layout
+ */
+
+.landing-main-title {
+  font-size: 4em;
+}
+
+
+/*
+ *  4. Responsive
  */
 
  @media (max-width: 576px) {
