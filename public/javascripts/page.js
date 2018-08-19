@@ -5,7 +5,8 @@ $(document).ready(function() {
     anchors: ['airport', 'eat', 'sightsee', 'sleep', 'souvenir', 'mnj'],
     css3: true,
     loopHorizontal: false,
-    scrollBar: true,
+    slidesNavigation: true,
+    slidesNavPosition: 'bottom',
 
 
     afterLoad: function(origin, destination, direction){

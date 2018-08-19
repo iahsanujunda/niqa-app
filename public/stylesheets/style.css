@@ -109,7 +109,6 @@ ul {
 .main {
   margin-left: 26em; /* Same as the width of the sidenav */
   padding: 0px 10px;
-  background-color: #f1f1f1;
 }
 
 
@@ -126,9 +125,71 @@ img {
  */
 
 .container {
-
   min-height: 85%;
-  background-color: #9d1e31;
+}
+
+.title {
+  position: relative;
+  left: -12px;
+}
+
+.address {
+  position: relative;
+  margin-top: 15px;
+  padding-left: 3px;
+  left: -12px;
+}
+
+.content-body {
+  margin-top: 5em;
+}
+
+.content-body {
+  margin-top: 5em;
+}
+
+.gambar {
+  min-height: 280px;
+  margin-bottom: 5px;
+  border: 1px solid #183d74;
+}
+
+h6 .cost {
+  color: darkgray;
+}
+
+.rating {
+  margin: 0 3em;
+  font-size: 1.4em;
+  color: darkgray;
+}
+
+.saying {
+  margin-top: 8px;
+  color: #183d74;
+}
+
+.fp-slidesNav {
+  display: inline-block;
+  text-align: center;
+}
+
+.fp-slidesNav ul li a span {
+  background: #183d74;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  width: 0;
+  border-width: 38.5px 34px 38.5px 0;
+  border-color: transparent #183d74 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  right: 15px;
+  width: 0;
+  border-width: 38.5px 0 38.5px 34px;
+  border-color: transparent transparent transparent #183d74;
 }
 
 
