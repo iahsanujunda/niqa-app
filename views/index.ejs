@@ -75,27 +75,35 @@
 
       <!-- Eat Section START -->
       <div class="section">
-        <div class="slide" data-anchor="macehat">
+
+        <% for (var i=0; i<eats.length; i++) { %>
+        <div class="slide" data-anchor="<%= eats[i].anchor %>">
           <div class="container col-md-10">
-            <div class="title"><h3><strong>Macehat</strong></h3></div>
-            <div class="address"><h6>Jl. Karo II</h6></div>
+            <div class="title"><h3><strong><%= eats[i].title %></strong></h3></div>
+            <div class="address">
+              <a href="<%= eats[i].latlng %>">
+                <h6><%= eats[i].address %></h6>
+              </a>
+            </div>
             <div class="content-body row">
               <div class="col-md-4">
                 <div class="row">
                   <div class="gambar col-md-12">
                     Image
                   </div>
-                  Credit: http://example.com/sample
+                  <div class="gambar-credit col-md-12">
+                    Credit: <%= eats[i].credit %>
+                  </div>
                 </div>
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-7">
                 <h6>Average Cost :
-                  <span class="cost"> IDR 100k (For two people)</span>
+                  <span class="cost">&nbsp; <%= eats[i].cost %></span>
                 </h6>                
                 <br/>
                 <br/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.</h6>
+                <h6><%= eats[i].description %></h6>
               </div>
             </div>
             <br/>
@@ -104,91 +112,17 @@
             <div class="row rating">
               <div class="col-md-5">
                 <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].mira %></div>
               </div>
               <div class="col-md-5 ml-auto">
                 <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].junda %></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="slide" data-anchor="sop-langsa">
-          <div class="container col-md-10">
-            <div class="title"><h3><strong>Sop Langsa</strong></h3></div>
-            <div class="address"><h6>Jl. Karo II</h6></div>
-            <div class="content-body row">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="gambar col-md-12">
-                    Image
-                  </div>
-                  Credit: http://example.com/sample
-                </div>
-              </div>
-              <div class="col-md-1"></div>
-              <div class="col-md-7">
-                <h6>Average Cost :
-                  <span class="cost"> IDR 100k (For two people)</span>
-                </h6>                
-                <br/>
-                <br/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.</h6>
-              </div>
-            </div>
-            <br/>
-            <br/>
-            <br/>
-            <div class="row rating">
-              <div class="col-md-5">
-                <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-              <div class="col-md-5 ml-auto">
-                <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide" data-anchor="sinar-pagi">
-          <div class="container col-md-10">
-            <div class="title"><h3><strong>Soto Medan Sinar Pagi</strong></h3></div>
-            <div class="address"><h6>Jl. Karo II</h6></div>
-            <div class="content-body row">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="gambar col-md-12">
-                    Image
-                  </div>
-                  Credit: http://example.com/sample
-                </div>
-              </div>
-              <div class="col-md-1"></div>
-              <div class="col-md-7">
-                <h6>Average Cost :
-                  <span class="cost"> IDR 100k (For two people)</span>
-                </h6>                
-                <br/>
-                <br/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.</h6>
-              </div>
-            </div>
-            <br/>
-            <br/>
-            <br/>
-            <div class="row rating">
-              <div class="col-md-5">
-                <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-              <div class="col-md-5 ml-auto">
-                <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <% } %>
+
       </div>
       <!-- Eat Section END -->
 
@@ -212,48 +146,16 @@
 
       <!-- Gift Section START -->
       <div class="section">
-        <div class="slide" data-anchor="meranti">
+        
+        <% for (var i=0; i<souvenirs.length; i++) { %>
+        <div class="slide" data-anchor="<%= souvenirs[i].anchor %>">
           <div class="container col-md-10">
-            <div class="title"><h3><strong>Meranti</strong></h3></div>
-            <div class="address"><h6>Jl. Karo II</h6></div>
-            <div class="content-body row">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="gambar col-md-12">
-                    Image
-                  </div>
-                  Credit: http://example.com/sample
-                </div>
-              </div>
-              <div class="col-md-1"></div>
-              <div class="col-md-7">
-                <h6>Average Cost :
-                  <span class="cost"> IDR 100k (For two people)</span>
-                </h6>                
-                <br/>
-                <br/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.</h6>
-              </div>
+            <div class="title"><h3><strong><%= souvenirs[i].title %></strong></h3></div>
+            <div class="address">
+              <a href="<%= souvenirs[i].latlng %>">
+                <h6><%= souvenirs[i].address %></h6>
+              </a>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <div class="row rating">
-              <div class="col-md-5">
-                <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-              <div class="col-md-5 ml-auto">
-                <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide" data-anchor="zulaikha">
-          <div class="container col-md-10">
-            <div class="title"><h3><strong>Zulaikha</strong></h3></div>
-            <div class="address"><h6>Jl. Karo II</h6></div>
             <div class="content-body row">
               <div class="col-md-4">
                 <div class="row">
@@ -261,18 +163,18 @@
                     Image
                   </div>
                   <div class="gambar-credit col-md-12">
-                    Credit: http://example.com/sample
+                    Credit: <%= souvenirs[i].credit %>
                   </div>
                 </div>
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-7">
                 <h6>Average Cost :
-                  <span class="cost"> IDR 100k (For two people)</span>
+                  <span class="cost">&nbsp; <%= souvenirs[i].cost %></span>
                 </h6>                
                 <br/>
                 <br/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.</h6>
+                <h6><%= souvenirs[i].description %></h6>
               </div>
             </div>
             <br/>
@@ -281,15 +183,17 @@
             <div class="row rating">
               <div class="col-md-5">
                 <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].mira %></div>
               </div>
               <div class="col-md-5 ml-auto">
                 <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)</div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].junda %></div>
               </div>
             </div>
           </div>
         </div>
+        <% } %>
+        
       </div>
       <!-- Gift Section END -->
 

@@ -13,6 +13,10 @@ a {
   color: #183d74;
 }
 
+a:link {
+  text-decoration: underline;
+}
+
 ul {
   padding: 0;
   list-style: none;
