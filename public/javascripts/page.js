@@ -6,7 +6,6 @@ $(document).ready(function() {
     css3: true,
     loopHorizontal: false,
     slidesNavigation: true,
-    resetSliders: true,
     slidesNavPosition: 'bottom',
 
 
@@ -65,4 +64,6 @@ $(document).ready(function() {
       }
     }
   });
+  
+  $('#ivitation-main').enllax();
 });
