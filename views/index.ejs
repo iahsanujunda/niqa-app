@@ -38,7 +38,6 @@
         </div>
 
         <div id="footer-sidenav">
-          Coded with love
           <br> © JnM
         </div>
       </ul>
@@ -95,7 +94,7 @@
               <div class="col-md-4">
                 <div class="row">
                   <div class="gambar col-md-12">
-                    <img src="<%= eats[i].images %>"/>
+                    <img class="gambar-img" src="<%= eats[i].images %>"/>
                   </div>
                   <div class="gambar-credit col-md-12">
                     Credit: <%= eats[i].credit %>
@@ -106,9 +105,7 @@
               <div class="col-md-7">
                 <h6 class="cost">Average Cost :
                   <span class="cost">&nbsp; <%= eats[i].cost %></span>
-                </h6>                
-                <br/>
-                <br/>
+                </h6>
                 <h6 class="description"><%= eats[i].description %></h6>
               </div>
             </div>

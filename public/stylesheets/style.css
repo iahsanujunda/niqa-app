@@ -189,13 +189,19 @@ img {
   margin-top: 5em;
 }
 
-.gambar {
+.gambar-img {
+  object-fit: cover;
   margin: 0 20px 5px 20px;
-  min-height: 280px;
+  height: 300px;
+  width: inherit;
 }
 
 .gambar-credit {
   margin: 0 20px;
+}
+
+.description {
+  margin-top: 2em;
 }
 
 h6 .cost {
@@ -326,8 +332,15 @@ h6 .cost {
     text-align: center;
   }
 
-  .gambar {
-    max-width: 85% !important;
-    height: auto !important;
+  .gambar-img {
+    object-fit: cover;
+    display: block;
+    height: 200px !important;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .gambar-credit {
+    text-align: center;
   }
 }
