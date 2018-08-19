@@ -365,3 +365,15 @@ h6 .cost {
     margin-top: 14px;
   }
 }
+
+
+
+/*
+ *  6. Error Handling
+ */
+
+#error .fp-bg {
+  background-image: url('../images/tattoine.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
