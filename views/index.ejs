@@ -36,6 +36,11 @@
             <img id="text-bg" src="images/mirajunda-aktif.png">
           </a>
         </div>
+
+        <div id="footer-sidenav">
+          Coded with love
+          <br> © JnM
+        </div>
       </ul>
     </div>
 
@@ -90,7 +95,7 @@
               <div class="col-md-4">
                 <div class="row">
                   <div class="gambar col-md-12">
-                    Image
+                    <img src="<%= eats[i].images %>"/>
                   </div>
                   <div class="gambar-credit col-md-12">
                     Credit: <%= eats[i].credit %>
@@ -99,12 +104,12 @@
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-7">
-                <h6>Average Cost :
+                <h6 class="cost">Average Cost :
                   <span class="cost">&nbsp; <%= eats[i].cost %></span>
                 </h6>                
                 <br/>
                 <br/>
-                <h6><%= eats[i].description %></h6>
+                <h6 class="description"><%= eats[i].description %></h6>
               </div>
             </div>
             <br/>
@@ -203,11 +208,12 @@
       <!-- Invitation Section START -->
       <div class="section active" id="invitation-main">
         <div class="slide" data-anchor="mnj">
+          <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="invitation-main-title">Wedding Day</div>
-            <div class="parallax-window" data-image-src='images/bg-london.png' data-parallax="scroll" data-position="top" data-bleed="10">
-              <img src="images/muka.png" alt="">
-            </div>
+            <img src="images/muka.png" alt="" id="para-muka">
+            <img src="images/bus.png" alt="" id="para-bus">
+            <img src="images/phonebooth.png" alt="" id="para-phone">
           </div>
         </div>
       </div>
