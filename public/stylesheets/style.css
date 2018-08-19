@@ -1,3 +1,8 @@
+/*
+ *  1. Main Layout
+ */
+
+
 body {
   padding: 50px;
   font-family: 'Quicksand';
@@ -112,4 +117,33 @@ ul {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+
+
+/*
+ *  2. Slide Layout
+ */
+
+.container {
+
+  min-height: 85%;
+  background-color: #9d1e31;
+}
+
+
+/*
+ *  3. Responsive
+ */
+
+ @media (max-width: 576px) {
+  .mob-sidenav {
+    display: none;
+    width: 0px;
+  }
+
+  .mob-main {
+    margin-left: 0;
+    padding: 0px 0px;
+  }
 }
