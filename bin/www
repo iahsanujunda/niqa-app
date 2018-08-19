@@ -25,7 +25,16 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, () => {
+  console.log(`niqaApp  Copyright (C) 2018 Izzuddin Ahsanujunda`);
+  console.log('');
+  console.log(`This program comes with ABSOLUTELY NO WARRANTY;`);
+  console.log(`This is free software, and you are welcome to `);
+  console.log(`redistribute it under certain conditions; Consult`);
+  console.log(`LICENSE file for further information;`);
+  console.log('');
+  console.log(`App running on port ${port}`);
+});
 server.on('error', onError);
 server.on('listening', onListening);
 
