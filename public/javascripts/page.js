@@ -5,6 +5,7 @@ $(document).ready(function() {
     anchors: ['airport', 'eat', 'sightsee', 'sleep', 'souvenir', 'mnj'],
     css3: true,
     loopHorizontal: false,
+    scrollOverflow: true,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
 
@@ -64,6 +65,6 @@ $(document).ready(function() {
       }
     }
   });
-  
-  $('#ivitation-main').enllax();
+
+
 });
