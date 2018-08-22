@@ -248,8 +248,19 @@ h6 .cost {
   text-align: center;
 }
 
+.fp-slidesNav ul li {
+  margin: 2px;
+}
+
 .fp-slidesNav ul li a span {
   background: #183d74;
+  left: 20%;
+}
+
+.fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+  height: 9px;
+  width: 9px;
+  margin: -5px 0 0 -7px;
 }
 
 .fp-controlArrow.fp-prev {
@@ -354,16 +365,25 @@ h6 .cost {
   }
 
   .title {
-    top: -30px;
+    top: -2.5em;
+  }
+
+  .title h3 {
+    font-size: 19px;
   }
 
   .address {
-    top: -25px;
+    top: -3.4em;
+  }
+
+  .address h6 {
+    font-size: 12px;
   }
 
   .content-body {
-    margin-top: 3em;
+    margin-top: 0;
   }
+
 
   .description {
     display: none;
@@ -372,6 +392,11 @@ h6 .cost {
   .cost {
     margin-top: 20px;
     text-align: center;
+    font-size: 12px;
+  }
+
+  #gambar-container {
+    margin: 0 -12px;
   }
 
   .gambar-img {
@@ -383,19 +408,26 @@ h6 .cost {
   }
 
   .gambar-credit {
+    margin-top: 5px;
     text-align: center;
   }
 
   .rating {
     margin-top: 1em;
+    font-size: 12px;
   }
 
   .saying {
     margin-top: 4px;
+    font-size: 12px;
   }
 
   .junda {
     margin-top: 14px;
+  }
+
+  .fp-slidesNav.fp-bottom {
+    bottom: 0;
   }
 }
 
