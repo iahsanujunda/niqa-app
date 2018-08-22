@@ -204,6 +204,10 @@ img {
   margin-top: 5em;
 }
 
+#gambar-container {
+  margin-right: 2em;
+}
+
 .gambar-img {
   object-fit: cover;
   margin: 0 20px 5px 20px;
@@ -217,21 +221,26 @@ img {
 
 .description {
   margin-top: 2em;
+  font-size: 1.4em;
+  line-height: 1.5em;
 }
 
 h6 .cost {
-  color: darkgray;
+  color: #808083;
+  font-weight: bold;
 }
 
 .rating {
   margin: 2em 3em 0;
   font-size: 1.4em;
-  color: darkgray;
+  color: #808083;
+  font-weight: bold;
 }
 
 .saying {
   margin-top: 8px;
   color: #183d74;
+  font-weight: 100;
 }
 
 .fp-slidesNav {
@@ -278,31 +287,31 @@ h6 .cost {
 
 #para-muka {
   position: absolute;
-  max-height: 60%;
-  width: 60%;
+  max-height: 70%;
+  width: 70%;
   display: block;
-  left: 20%;
-  top: 17%;
+  left: 17%;
+  top: 5%;
   z-index: 1;
 }
 
 #para-bus {
   position: absolute;
-  max-height: 50%;
-  width: 50%;
+  max-height: 70%;
+  width: 70%;
   display: block;
-  top: 27%;
-  right: 23%;
+  top: 5%;
+  right: 12%;
   z-index: 3;
 }
 
 #para-phone {
   position: absolute;
-  max-height: 50%;
-  width: 50%;
+  max-height: 70%;
+  width: 70%;
   display: block;
-  top: 27%;
-  left: 20%;
+  top: 5%;
+  left: 18%;
   z-index: 3;
 }
 
@@ -312,14 +321,19 @@ h6 .cost {
     background-position: 50% 30%;
   }
 
+  #para-muka {
+    top: 17%;
+    left: 17%;
+  }
+
   #para-bus {
-    top: 23%;
-    right: 23%;
+    top: 17%;
+    right: 12%;
   }
 
   #para-phone {
-    top: 23%;
-    left: 20%;
+    top: 17%;
+    left: 17%;
   }
 
 }
