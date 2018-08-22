@@ -121,6 +121,25 @@ ul {
   padding: 0px 10px;
 }
 
+.fp-controlArrow {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  top: 50%;
+  cursor: pointer;
+}
+
+.fp-controlArrow.fp-prev {
+  left:0;
+  background: url(../images/arrow.png) no-repeat;
+}
+
+.fp-controlArrow.fp-next {
+  right:0;
+  background: url(../images/arrow-right.png) no-repeat;
+}
+
 
 /* Mira Bul */
 img {
