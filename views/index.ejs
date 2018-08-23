@@ -49,7 +49,7 @@
 
         <div id="footer-sidenav">
           Coded with love <br/>
-          © MnJ
+          © MnJ 2018
         </div>
       </ul>
     </div>
@@ -62,25 +62,28 @@
 
       <!-- Airport Section START -->
       <div class="section">
+        <% for (var i=0; i<airport.length; i++) { %>
+        <% if (i===0) { %>
         <div class="slide" data-anchor="airport" id="airport-slide">
           <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="title-kno">
-              <strong>Welcome to Medan!</strong>
+              <strong><%= airport[i].title %></strong>
             </div>
-            <div class="desc-kno">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi.</div>
+            <div class="desc-kno"><%= airport[i].desc %></div>
           </div>
         </div>
+        <% } else if (i===1) { %>
         <div class="slide" data-anchor="getting-into">
           <div class="container col-md-6">
             <div class="title-kno" style="text-align: left;">
               <strong>Getting into the city</strong>
             </div>
             <div class="row desc-transport">
-              <div class="col-md-4 gambar-kno-container">
+              <div class="col-sm-4 gambar-kno-container">
                 <img src="images/kno-train.jpg" alt="" class="gambar-kno">
               </div>
-              <div class="col-md-8 text-kno-container">
+              <div class="col-sm-8 text-kno-container">
                 <p class="kno-trans-title">Airport Trains</p>
                 <p class="kno-trans-cost">IDR 75k/pax</p>
                 <p class="kno-trans-pros">Pros: lorem ipsum</p>
@@ -88,10 +91,10 @@
               </div>
             </div>
             <div class="row desc-transport">
-              <div class="col-md-4 gambar-kno-container">
+              <div class="col-sm-4 gambar-kno-container">
                 <img src="images/kno-train.jpg" alt="" class="gambar-kno">
               </div>
-              <div class="col-md-8 text-kno-container">
+              <div class="col-sm-8 text-kno-container">
                 <p class="kno-trans-title">Damri</p>
                 <p class="kno-trans-cost">IDR 75k/pax</p>
                 <p class="kno-trans-pros">Pros: lorem ipsum</p>
@@ -99,10 +102,10 @@
               </div>
             </div>
             <div class="row desc-transport">
-              <div class="col-md-4 gambar-kno-container">
+              <div class="col-sm-4 gambar-kno-container">
                 <img src="images/kno-train.jpg" alt="" class="gambar-kno">
               </div>
-              <div class="col-md-8 text-kno-container">
+              <div class="col-sm-8 text-kno-container">
                 <p class="kno-trans-title">Airport Taxi</p>
                 <p class="kno-trans-cost">IDR 75k/pax</p>
                 <p class="kno-trans-pros">Pros: Dont take this.</p>
@@ -111,6 +114,8 @@
             </div>
           </div>
         </div>
+        <% } %>
+        <% } %>
       </div>
       <!-- Airport Section END -->
 

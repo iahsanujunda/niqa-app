@@ -9,12 +9,13 @@ router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Mira and Junda',
     site: 'Mira and Junda\'s Wedding',
+    airport: content[0].airport,
     eats: content[1].eat,
     souvenirs: content[4].souvenir
   });
 });
 
-// console.log(content[1].eat);
+// console.log(content[0].airport);
 
 
 

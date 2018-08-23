@@ -1,7 +1,7 @@
 [{
   "airport": [{
     "title": "Welcome to Medan!",
-    "desc": ""
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi."
   },
   {
     "transport": [
@@ -47,7 +47,7 @@
       "images": "images/eat-sumsum.jpg",
       "credit": "foursquare",
       "cost": "IDR 120k (for two pax)",
-      "description": "Since Junda was little, his mom often feed him spinal cord of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancies a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one group can only order maximum 2 servings of spinal soup as cow spines are quite hard to come by. So if you came with a big group, divide your group into twos and pretend that you don't know each other.",
+      "description": "Since Junda was little, his mom often feed him bone marrow of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancies a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one group can only order maximum 2 servings of spinal soup as cow marrows are quite hard to come by. So if you came with a big group, divide your group into twos and pretend that you don't know each other.",
       "mira": "No, thank you. (1/5)",
       "junda": "A jolly in your belly. Though finishing the whole thing is known to be quite a chore. (3.5/5)"
     },
