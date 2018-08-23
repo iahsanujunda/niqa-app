@@ -158,15 +158,24 @@ img {
   position: relative;
 }
 
+#airport-slide .fp-bg {
+  background-image: url('../images/kno-front.jpg');
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position: 50% 35%;
+}
+
 .title-kno {
+  margin-top: .5em;
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2.7em;
 }
 
 .desc-kno {
-  margin-top: 2em;
+  position: relative;
   text-align: center;
-  font-size: 4.5em;
+  font-size: 1.4em;
+  bottom: -32em;
 }
 
 .icon-kno {
