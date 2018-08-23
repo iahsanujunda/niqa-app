@@ -1,5 +1,30 @@
 [{
-  "airport": {}
+  "airport": [{
+    "title": "Welcome to Medan!",
+    "desc": ""
+  },
+  {
+    "transport": [
+      {
+        "title": "Airport Train",
+        "cost": "IDR 75K/pax",
+        "pros": "Lorem ipsum dolor sit amet.",
+        "cons": "Lorem ipsum dolor sit amet."
+      },
+      {
+        "title": "Damri",
+        "cost": "IDR 75K/pax",
+        "pros": "Lorem ipsum dolor sit amet.",
+        "cons": "Lorem ipsum dolor sit amet."
+      },
+      {
+        "title": "Airport Taxi",
+        "cost": "IDR 75K/pax",
+        "pros": "Lorem ipsum dolor sit amet.",
+        "cons": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  }]
 },{
   "eat": [
     {

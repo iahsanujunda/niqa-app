@@ -132,7 +132,7 @@ ul {
 
 .fp-controlArrow.fp-prev {
   left:0;
-  background: url(../images/arrow.png) no-repeat;
+  background: url('./../images/arrow.png') no-repeat;
 }
 
 .fp-controlArrow.fp-next {
@@ -182,6 +182,40 @@ img {
   display: block;
   margin: auto;
   height: 30em;
+}
+
+.desc-transport {
+  margin-top: 4em;
+  margin-bottom: -2em;
+}
+
+.gambar-kno {
+  object-fit: cover;
+  height: 140px;
+  width: inherit;
+}
+
+.text-kno-container {
+  margin-left: -10px;
+}
+
+.text-kno-container .kno-trans-title {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.text-kno-container .kno-trans-cost {
+  font-size: 1.4em;
+}
+
+.kno-trans-pros {
+  margin-top: 3em;
+  font-size: 1.4em;
+}
+
+.kno-trans-cons {
+  margin-top: -1em;
+  font-size: 1.4em;
 }
 
 .title {
