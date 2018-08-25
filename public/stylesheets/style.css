@@ -208,14 +208,25 @@ img {
 }
 
 .kno-trans-pros {
-  margin-top: 3em;
+  margin-top: 1.5em;
   font-size: 1.4em;
+}
+
+.kno-trans-pros strong {
+  color: green;
 }
 
 .kno-trans-cons {
   margin-top: -1em;
   font-size: 1.4em;
 }
+
+.kno-trans-cons strong {
+  color: red;
+}
+
+
+/* Eats */
 
 .title {
   margin: 0 20px;
@@ -298,7 +309,7 @@ h6 .cost {
 }
 
 .nearby-item {
-  border: solid 1px #000;
+  font-size: 1.2em;
 }
 
 

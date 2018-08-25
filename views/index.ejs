@@ -83,8 +83,8 @@
               <div class="col-sm-8 text-kno-container">
                 <p class="kno-trans-title"><%= airport[i].transport[j].title %></p>
                 <p class="kno-trans-cost"><%= airport[i].transport[j].cost %></p>
-                <p class="kno-trans-pros">Pros: <%= airport[i].transport[j].pros %></p>
-                <p class="kno-trans-cons">Cons: <%= airport[i].transport[j].cons %></p>
+                <p class="kno-trans-pros"><strong>Pros:</strong> <%= airport[i].transport[j].pros %></p>
+                <p class="kno-trans-cons"><strong>Cons:</strong> <%= airport[i].transport[j].cons %></p>
               </div>
             </div>
             <% } %>
@@ -233,17 +233,13 @@
                   <span class="cost">&nbsp; <%= souvenirs[i].cost %></span>
                 </h6>
                 <h6 class="description"><%= souvenirs[i].description %></h6>
+                <div class="nearby-label">Suitable gift for :</div>
+                <div class="nearby-item">
+                  <%= souvenirs[i].audience %>
+                </div>
               </div>
             </div>
-            <div class="row rating">
-              <div class="col-md-5">
-                <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].mira %></div>
-              </div>
-              <div class="col-md-5 ml-auto junda">
-                <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= souvenirs[i].junda %></div>
-              </div>
+            <div class="row nearby-container">
             </div>
           </div>
         </div>
