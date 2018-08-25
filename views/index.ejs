@@ -179,21 +179,16 @@
             </div>
             <div class="row nearby-container">
               <div class="col-md-12 nearby-label" id="">Around Here :</div>
-              <div class="col-md-4 col-xs-12">
-                <div class="nearby-item">
-                  Around 1
+              <% for (var j=0; j<sightsee[i].around.length; j++) { %>
+                <div class="col-md-4 col-xs-12">
+                  <div class="nearby-item">
+                    <img class="nearby-img" src="<%= sightsee[i].around[j].images %>">
+                    <a class="nearby-title" href="<%= sightsee[i].around[j].latlng %>">
+                      <%= sightsee[i].around[j].title %>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <div class="nearby-item">
-                  Around 2
-                </div>
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <div class="nearby-item">
-                  Around 3
-                </div>
-              </div>
+              <% } %>
             </div>
           </div>
         </div>
@@ -233,10 +228,10 @@
                   <span class="cost">&nbsp; <%= souvenirs[i].cost %></span>
                 </h6>
                 <h6 class="description"><%= souvenirs[i].description %></h6>
-                <div class="nearby-label">Suitable gift for :</div>
-                <div class="nearby-item">
+                <h6 class="suitable-label">Suitable souvenir for :</h6>
+                <p class="suitable-item">
                   <%= souvenirs[i].audience %>
-                </div>
+                </p>
               </div>
             </div>
             <div class="row nearby-container">

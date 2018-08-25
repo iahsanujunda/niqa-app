@@ -50,7 +50,7 @@
       "images": "images/eat-sumsum.jpg",
       "credit": "foursquare",
       "cost": "IDR 120k (for two pax)",
-      "description": "Since Junda was little, his mom often feed him bone marrow of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancy a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one group can only order maximum 2 servings of marrow soup as cow marrows are quite hard to come by. So if you came with a big group, divide your group into twos and pretend that you don't know each other.",
+      "description": "Since Junda was little, his mom often feed him bone marrow of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancy a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one table can only order maximum 2 servings of marrow soup as cow marrows are quite hard to come by, the rest of the table have to make do with regular beef soup. So if you came with a big group and all of you want marrow, divide your group into twos and pretend that you don't know each other.",
       "mira": "No, thank you. (1/5)",
       "junda": "A jolly in your belly. Though finishing the whole thing is known to be quite a chore. (3.5/5)"
     },
@@ -306,7 +306,7 @@
       "images": "images/macehat.jpg",
       "credit": "http://example.com/sample",
       "cost": "IDR 85k (for one roll)",
-      "description": "If you came to Medan and not bring Meranti back, your colleague won't believe you. This is the item that everybody think about when they hear Medan.",
+      "description": "If you said to your colleague that you just back from Medan but you didn't bring Meranti to office, your colleague won't believe you. This is the item that everybody think about when they hear Medan.",
       "audience": "Office colleagues. Bolu meranti could stay good at room temperature for days. The cake can be sliced to tiny pieces, so big groups could enjoy them."
     },
     {
@@ -362,7 +362,7 @@
       "credit": "http://example.com/sample",
       "cost": "IDR 100k (for two pax)",
       "description": "This item is made in medan, sold by a medanese, with ingredients from local medan market. The owner might be busy when you got there, but you can always order them online via tokopedia.",
-      "audience": "your office mates, your wife, your husbands, your parents, anyone really."
+      "audience": "your office mates, your wife, your husband, your parents, anyone really."
     }
   ]
 }]
