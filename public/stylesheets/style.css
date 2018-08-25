@@ -273,7 +273,7 @@ img {
 }
 
 .description {
-  margin-top: 2em;
+  margin-top: 1.2em;
   font-size: 1.4em;
   line-height: 1.5em;
 }
@@ -310,7 +310,36 @@ h6 .cost {
 
 .nearby-item {
   font-size: 1.2em;
+  position: relative;
+  display: block;
 }
+
+.nearby-item .nearby-img {
+  vertical-align: middle;
+  object-fit: cover;
+  margin: 0;
+  height: 4em;
+  width: inherit;
+}
+
+.nearby-item .nearby-title {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* Souvenirs */
+
+.suitable-label {
+  margin-top: 2em;
+}
+
+.suitable-item {
+  margin-top: 1.2em;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
 
 
 
