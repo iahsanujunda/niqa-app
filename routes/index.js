@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
   });
 });
 
-// console.log(content[0].airport);
+// console.log(content[0].airport[1].transport[0].title);
 
 
 

@@ -4,6 +4,7 @@ $(document).ready(function() {
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
     anchors: ['airport', 'eat', 'sightsee', 'sleep', 'souvenir', 'mnj'],
     css3: true,
+    controlArrows: true,
     loopHorizontal: false,
     scrollOverflow: true,
     slidesNavigation: true,

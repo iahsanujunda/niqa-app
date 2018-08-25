@@ -121,9 +121,9 @@ ul {
   padding: 0px 10px;
 }
 
-.fp-controlArrow {
+/* .fp-controlArrow {
   position: absolute;
-  width: 60px;
+  width: 10px;
   height: 60px;
   z-index: 4;
   top: 50%;
@@ -131,14 +131,13 @@ ul {
 }
 
 .fp-controlArrow.fp-prev {
-  left:0;
   background: url('./../images/arrow.png') no-repeat;
+  border: none;
 }
 
 .fp-controlArrow.fp-next {
-  right:0;
   background: url(../images/arrow-right.png) no-repeat;
-}
+} */
 
 
 /* Mira Bul */
@@ -306,19 +305,45 @@ h6 .cost {
   margin: -5px 0 0 -4px;
 }
 
+.fp-controlArrow {
+  border: none;
+  width: 50px !important;
+  height: 60px !important;
+  cursor: pointer;
+}
+
 .fp-controlArrow.fp-prev {
-  left: 15px;
-  width: 0;
-  border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #183d74 transparent transparent;
+  left: -10px;
+  background-image: url('../images/arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fp-controlArrow.fp-next {
-  right: 15px;
-  width: 0;
-  border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #183d74;
+  right: 0;
+  background-image: url('../images/arrow-right.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
+/* .fp-controlArrow {
+  position: absolute;
+  width: 10px;
+  height: 60px;
+  z-index: 4;
+  top: 50%;
+  cursor: pointer;
+}
+
+.fp-controlArrow.fp-prev {
+  background: url('./../images/arrow.png') no-repeat;
+  border: none;
+}
+
+.fp-controlArrow.fp-next {
+  background: url(../images/arrow-right.png) no-repeat;
+} */
 
 
 
