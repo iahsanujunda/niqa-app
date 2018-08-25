@@ -161,15 +161,15 @@
     "images": "images/sight-maimun.jpg",
     "credit": "travel.detik.com",
     "cost": "IDR 5k - 10k (approximately)",
-    "description": "",
+    "description": "If London has Buckingham Palace as its icon, Medan has a palace as well, namely Maimun Palace, which was built on 1887. It is where the royal family from Kesultanan Deli lives until today. They are kind enough to make the main part of their palace to be opened for public. You can come and enjoy the beautiful architecture with vibrant colours, which an acculturation of islamic Melayu culture and Europe since the architect, Theodoor van Erp, was a Dutch himself. Expect to join massive crowd there, especially if you come on weekend. To enjoy the palace to the next extend, you can play a role as a member of Kesultanan Deli by renting traditional Melayu costume that rented there with fair price (approximately 15k rupiahs last time we went there). You can see Meriam Puntung (headless canon) there, which has a tragical backstory. ",
     "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
+      "title": "Mesjid Raya Al-Mashun",
+      "images": "images/sight-mesjidraya.jpg",
+      "latlng": "https://goo.gl/maps/F88phbetx3R2"
     },{
-      "title": "",
-      "images": "",
-      "latlng": ""
+      "title": "Cofeebox",
+      "images": "images/eat-coffeebox.jpg",
+      "latlng": "https://goo.gl/maps/3xxovxnut8E2"
     }]
   },
   {
@@ -180,15 +180,15 @@
     "images": "images/sight-mesjidraya.jpg",
     "credit": "arsitektour.wordpress.com",
     "cost": "free",
-    "description": "",
+    "description": "Just a walking distance from Maimun Palace, you can see a huge mosque. The combination of Middle Eastern, Indian, and Spanish elements on the architecture makes the mosque stands out. It was built in the year 1906 by the same architect of Maimun Palace. The mosque has octagonal shape and has 4 wings. The entrance fee is free but please dress respectfully; the women need to cover her head before entering the mosque. Align your visit with your prayer time, as we really like the interior and the ambience inside. ",
     "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
+      "title": "Maimun Palace",
+      "images": "images/sight-maimun.jpg",
+      "latlng": "https://goo.gl/maps/qTjNpMRa3vE2"
     },{
-      "title": "",
-      "images": "",
-      "latlng": ""
+      "title": "Cofeebox",
+      "images": "images/eat-coffeebox.jpg",
+      "latlng": "https://goo.gl/maps/3xxovxnut8E2"
     }]
   },
   {
