@@ -149,7 +149,20 @@
     }
   ]
 },{
-  "sightsee": {}
+  "sightsee": [
+    {
+      "anchor": "maimun",
+      "title": "Istana Maimun",
+      "address": "Jl. Karo, No 20",
+      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
+      "images": "images/macehat.jpg",
+      "credit": "http://example.com/sample",
+      "cost": "IDR 100k (for two pax)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.",
+      "mira": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)",
+      "junda": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)"
+    }
+  ]
 },{
   "souvenir": [
     {

@@ -11,11 +11,12 @@ router.get('/', function(req, res, next) {
     site: 'Mira and Junda\'s Wedding',
     airport: content[0].airport,
     eats: content[1].eat,
+    sightsee: content[2].sightsee,
     souvenirs: content[3].souvenir
   });
 });
 
-console.log(content[0].airport[1].transport[0].title);
+// console.log(content[0].airport[1].transport[0].title);
 
 
 
