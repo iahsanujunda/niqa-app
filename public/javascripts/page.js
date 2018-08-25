@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('#myFullpage').fullpage({
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
-    anchors: ['airport', 'eat', 'sightsee', 'sleep', 'souvenir', 'mnj'],
+    anchors: ['airport', 'eat', 'sightsee', 'souvenir', 'mnj'],
     css3: true,
     controlArrows: true,
     loopHorizontal: false,
@@ -27,12 +27,9 @@ $(document).ready(function() {
         $('#sightsee-sidenav').removeClass('active');
         $('#sightsee-icon').attr('src', 'images/icon-sightsee.png');
       } else if (origin.index == 3) {
-        $('#sleep-sidenav').removeClass('active');
-        $('#sleep-icon').attr('src', 'images/icon-sleep.png');
-      } else if (origin.index == 4) {
         $('#souvenir-sidenav').removeClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift.png');
-      } else if (origin.index == 5) {
+      } else if (origin.index == 4) {
         $('#text-bg').hover(function() {
           $('#main-hidden').show();
         }, function() {
@@ -53,12 +50,9 @@ $(document).ready(function() {
         $('#sightsee-sidenav').addClass('active');
         $('#sightsee-icon').attr('src', 'images/icon-sightsee-active.png');
       } else if (destination.index == 3) {
-        $('#sleep-sidenav').addClass('active');
-        $('#sleep-icon').attr('src', 'images/icon-sleep-active.png');
-      } else if (destination.index == 4) {
         $('#souvenir-sidenav').addClass('active');
         $('#souvenir-icon').attr('src', 'images/icon-gift-active.png');
-      } else if (destination.index == 5) {
+      } else if (destination.index == 4) {
         $('#text-bg').hover(function() {
           $('#main-hidden').show();
         }, function() {
