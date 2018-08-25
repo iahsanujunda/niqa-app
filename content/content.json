@@ -16,15 +16,15 @@
         "title": "Damri",
         "image": "images/kno-damri.jpg",
         "cost": "IDR 20K/pax",
-        "pros": "Cheapest option.",
-        "cons": "You thought Jakarta bus drivers are crazy? Think again."
+        "pros": "Cheapest option and various destinations are available (consult us!)",
+        "cons": "Not knowing which bus to take could make you stranded in an unfamiliar teritory."
       },
       {
         "title": "Airport Taxi",
         "image": "images/kno-taxi.jpg",
         "cost": "IDR 300K/car depends on how good you bargain",
-        "pros": "Don't take this.",
-        "cons": "Just dont!"
+        "pros": "Don't take this. Just dont!",
+        "cons": "And don't order grab or gocar either! You might get caught."
       }
     ]
   }]
@@ -153,139 +153,148 @@
   ]
 },{
   "sightsee": [
-  {
-    "anchor": "maimun",
-    "title": "Istana Maimun",
-    "address": "Jl. Sultan Ma'moen Al Rasyid No.66",
-    "latlng": "https://goo.gl/maps/qTjNpMRa3vE2",
-    "images": "images/sight-maimun.jpg",
-    "credit": "travel.detik.com",
-    "cost": "IDR 5k - 10k (approximately)",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "mesjid-raya",
-    "title": "Mesjid Raya Al-Mashun",
-    "address": " Jl. Sisingamangaraja No.61",
-    "latlng": "https://goo.gl/maps/F88phbetx3R2",
-    "images": "images/sight-mesjidraya.jpg",
-    "credit": "arsitektour.wordpress.com",
-    "cost": "free",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "tjongafie",
-    "title": "Tjong A Fie Mansion",
-    "address": "Jl. Jendral Ahmad Yani No.105",
-    "latlng": "https://goo.gl/maps/fV9axGgfCmQ2",
-    "images": "images/sight-tjongafie.jpg",
-    "credit": "KSMTour.com",
-    "cost": "IDR 35K/pax (1 hour guided tour)",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "shri-mariamman",
-    "title": "Kuil Shri Mariamman",
-    "address": "Jl. Teuku Umar No.18",
-    "latlng": "https://goo.gl/maps/Q7LwYGNZYXD2",
-    "images": "images/sight-mariamman.jpeg",
-    "credit": "justgola.com",
-    "cost": "free",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "gereja-maria",
-    "title": "Graha Maria Annai Velangkanni",
-    "address": "Perumahan Taman Sakura Indah, Jl. Sakura III No.7, Tj. Selamat",
-    "latlng": "https://goo.gl/maps/6wdDdZZY7To",
-    "images": "images/sight-maria.jpg",
-    "credit": "klikhotel.com",
-    "cost": "free",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "danau-toba",
-    "title": "Danau Toba",
-    "address": "Tongging, Kabupaten Karo",
-    "latlng": "https://goo.gl/maps/nDFLFuEfDAQ2",
-    "images": "images/sight-tongging.jpg",
-    "credit": "Mira Afianti",
-    "cost": "free for sight seeing",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  },
-  {
-    "anchor": "taman-lumbini",
-    "title": "Taman Alam Lumbini",
-    "address": "Barus Jahe, Brastagi",
-    "latlng": "https://goo.gl/maps/df6omACuTTp",
-    "images": "images/sight-lumbini.jpg",
-    "credit": "travellink-indonesia.com",
-    "cost": "IDR 5k/pax",
-    "description": "",
-    "around": [{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    },{
-      "title": "",
-      "images": "",
-      "latlng": ""
-    }]
-  }
+    {
+      "anchor": "maimun",
+      "title": "Istana Maimun",
+      "address": "Jl. Sultan Ma'moen Al Rasyid No.66",
+      "latlng": "https://goo.gl/maps/qTjNpMRa3vE2",
+      "images": "images/sight-maimun.jpg",
+      "credit": "travel.detik.com",
+      "cost": "IDR 5k - 10k (approximately)",
+      "description": "If London has Buckingham Palace as its icon, Medan has a palace as well, namely Maimun Palace, which was built on 1887. It is where the royal family from Kesultanan Deli lives until today. They are kind enough to make the main part of their palace to be opened for public. You can come and enjoy the beautiful architecture with vibrant colours, which an acculturation of islamic Melayu culture and Europe since the architect, Theodoor van Erp, was a Dutch himself. Expect to join massive crowd there, especially if you come on weekend. To enjoy the palace to the next extend, you can play a role as a member of Kesultanan Deli by renting traditional Melayu costume that rented there with fair price (approximately 15k rupiahs last time we went there). You can see Meriam Puntung (headless canon) there, which has a tragical backstory. ",
+      "around": [{
+        "title": "Mesjid Raya Al-Mashun",
+        "images": "images/sight-mesjidraya.jpg",
+        "latlng": "https://goo.gl/maps/F88phbetx3R2"
+      },{
+        "title": "Cofeebox",
+        "images": "images/eat-coffeebox.jpg",
+        "latlng": "https://goo.gl/maps/3xxovxnut8E2"
+      }]
+    },
+    {
+      "anchor": "mesjid-raya",
+      "title": "Mesjid Raya Al-Mashun",
+      "address": " Jl. Sisingamangaraja No.61",
+      "latlng": "https://goo.gl/maps/F88phbetx3R2",
+      "images": "images/sight-mesjidraya.jpg",
+      "credit": "arsitektour.wordpress.com",
+      "cost": "free",
+      "description": "Just a walking distance from Maimun Palace, you can see a huge mosque. The combination of Middle Eastern, Indian, and Spanish elements on the architecture makes the mosque stands out. It was built in the year 1906 by the same architect of Maimun Palace. The mosque has octagonal shape and has 4 wings. The entrance fee is free but please dress respectfully; the women need to cover her head before entering the mosque. Align your visit with your prayer time, as we really like the interior and the ambience inside. ",
+      "around": [{
+        "title": "Maimun Palace",
+        "images": "images/sight-maimun.jpg",
+        "latlng": "https://goo.gl/maps/qTjNpMRa3vE2"
+      },{
+        "title": "Cofeebox",
+        "images": "images/eat-coffeebox.jpg",
+        "latlng": "https://goo.gl/maps/3xxovxnut8E2"
+      }]
+    },
+    {
+      "anchor": "tjongafie",
+      "title": "Tjong A Fie Mansion",
+      "address": "Jl. Jendral Ahmad Yani No.105",
+      "latlng": "https://goo.gl/maps/fV9axGgfCmQ2",
+      "images": "images/sight-tjongafie.jpg",
+      "credit": "KSMTour.com",
+      "cost": "IDR 35K/pax (1 hour guided tour)",
+      "description": "",
+      "around": [{
+        "title": "",
+        "images": "",
+        "latlng": ""
+      },{
+        "title": "",
+        "images": "",
+        "latlng": ""
+      }]
+    },
+    {
+      "anchor": "shri-mariamman",
+      "title": "Kuil Shri Mariamman",
+      "address": "Jl. Teuku Umar No.18",
+      "latlng": "https://goo.gl/maps/Q7LwYGNZYXD2",
+      "images": "images/sight-mariamman.jpeg",
+      "credit": "justgola.com",
+      "cost": "free",
+      "description": "",
+      "around": [{
+        "title": "",
+        "images": "",
+        "latlng": ""
+      },{
+        "title": "",
+        "images": "",
+        "latlng": ""
+      }]
+    },
+    {
+      "anchor": "gereja-maria",
+      "title": "Graha Maria Annai Velangkanni",
+      "address": "Perumahan Taman Sakura Indah, Jl. Sakura III No.7, Tj. Selamat",
+      "latlng": "https://goo.gl/maps/6wdDdZZY7To",
+      "images": "images/sight-maria.jpg",
+      "credit": "klikhotel.com",
+      "cost": "free",
+      "description": "",
+      "around": [
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        },
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        }
+      ]
+    },
+    {
+      "anchor": "danau-toba",
+      "title": "Danau Toba",
+      "address": "Tongging, Kabupaten Karo",
+      "latlng": "https://goo.gl/maps/nDFLFuEfDAQ2",
+      "images": "images/sight-tongging.jpg",
+      "credit": "Mira Afianti",
+      "cost": "free for sight seeing",
+      "description": "",
+      "around": [
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        },
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        }
+      ]
+    },
+    {
+      "anchor": "taman-lumbini",
+      "title": "Taman Alam Lumbini",
+      "address": "Barus Jahe, Brastagi",
+      "latlng": "https://goo.gl/maps/df6omACuTTp",
+      "images": "images/sight-lumbini.jpg",
+      "credit": "travellink-indonesia.com",
+      "cost": "IDR 5k/pax",
+      "description": "",
+      "around": [
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        },
+        {
+          "title": "",
+          "images": "",
+          "latlng": ""
+        }
+      ]
+    }
   ]
 },{
   "souvenir": [
@@ -296,10 +305,9 @@
       "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
       "images": "images/macehat.jpg",
       "credit": "http://example.com/sample",
-      "cost": "IDR 100k (for two pax)",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.",
-      "mira": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)",
-      "junda": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)"
+      "cost": "IDR 85k (for one roll)",
+      "description": "If you came to Medan and not bring Meranti back, your colleague won't believe you. This is the item that everybody think about when they hear Medan.",
+      "audience": "Bolu meranti could stay good at room temperature for days. The cake can be sliced to tiny pieces, so big groups could enjoy them, such as your colleagues in office."
     },
     {
       "anchor": "bika-ambon-zulaikha",
@@ -309,9 +317,52 @@
       "images": "images/macehat.jpg",
       "credit": "http://example.com/sample",
       "cost": "IDR 100k (for two pax)",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.",
-      "mira": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)",
-      "junda": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)"
+      "description": "There are lots of bika ambon shops in Medan, but Zulaikha stood the most.",
+      "audience": "Like bolu meranti, bika ambon could stay good for days in room temperature, and could also be enjoyed by big groups."
+    },
+    {
+      "anchor": "sate-kerang-rahmat",
+      "title": "Sate Kerang Rahmat",
+      "address": "Jl. Karo, No 20",
+      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
+      "images": "images/macehat.jpg",
+      "credit": "http://example.com/sample",
+      "cost": "IDR 100k (for two pax)",
+      "description": "We've tried various sate kerang from various places in medan, and we agreed that sate kerang rahmat tops our list. The combination of spices and the shell is perfect. Once the shop hand you the box, it's hard to walk away without opening it, therefore you best buy some for your own consumption excluding the souvenir portions.",
+      "audience": "Sate kerang could only stay good for maximum 12 hours at room temperature, and it was best served warm, so they are suitable for your own household."
+    },
+    {
+      "anchor": "durian-house",
+      "title": "Pancake Durian, Durian House",
+      "address": "Jl. Karo, No 20",
+      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
+      "images": "images/macehat.jpg",
+      "credit": "http://example.com/sample",
+      "cost": "IDR 100k (for two pax)",
+      "description": "",
+      "audience": "Pancake durian is quite pricey, hard to carry, and they get bad easily. You have to be sure the one you intend to give them to worth all the effort."
+    },
+    {
+      "anchor": "manisan-jambu",
+      "title": "Manisan Jambu",
+      "address": "Jl. Karo, No 20",
+      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
+      "images": "images/macehat.jpg",
+      "credit": "http://example.com/sample",
+      "cost": "IDR 100k (for two pax)",
+      "description": "",
+      "audience": "Another item that gets bad easily. The good thing about them is that they are cheap and easy to carry around."
+    },
+    {
+      "anchor": "mak-upik",
+      "title": "Teri Kacang Medan Mak Upik",
+      "address": "Jl. Karo, No 20",
+      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
+      "images": "images/macehat.jpg",
+      "credit": "http://example.com/sample",
+      "cost": "IDR 100k (for two pax)",
+      "description": "This item is made in medan, sold by a medanese, with ingredients from local medan market. The owner might be busy when you got there, but you can always order them online via tokopedia.",
+      "audience": "your office mates, your wife, your husbands, your parents, anyone really."
     }
   ]
 }]
