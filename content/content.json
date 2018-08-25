@@ -1,27 +1,30 @@
 [{
   "airport": [{
     "title": "Welcome to Medan!",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi."
+    "desc": "We know that you might feel a bit clueless and overwhelmed to visit Medan. Don't worry though, we are here to help. Just slide right or down to the section you are interested in."
   },
   {
     "transport": [
       {
         "title": "Airport Train",
+        "image": "images/kno-railink.jpg",
         "cost": "IDR 75K/pax",
-        "pros": "Lorem ipsum dolor sit amet.",
-        "cons": "Lorem ipsum dolor sit amet."
+        "pros": "Fastest among the bunch, 45 minutes get you to city center.",
+        "cons": "More people, more money."
       },
       {
         "title": "Damri",
-        "cost": "IDR 75K/pax",
-        "pros": "Lorem ipsum dolor sit amet.",
-        "cons": "Lorem ipsum dolor sit amet."
+        "image": "images/kno-damri.jpg",
+        "cost": "IDR 20K/pax",
+        "pros": "Cheapest option.",
+        "cons": "You thought Jakarta bus drivers are crazy? Think again."
       },
       {
         "title": "Airport Taxi",
-        "cost": "IDR 75K/pax",
-        "pros": "Lorem ipsum dolor sit amet.",
-        "cons": "Lorem ipsum dolor sit amet."
+        "image": "images/kno-taxi.jpg",
+        "cost": "IDR 300K/car depends on how good you bargain",
+        "pros": "Don't take this.",
+        "cons": "Just dont!"
       }
     ]
   }]
@@ -35,7 +38,7 @@
       "images": "images/eat-macehat.png",
       "credit": "surgakuliner.com/macehat-coffee-medan/",
       "cost": "IDR 100k (for two pax)",
-      "description": "Although this coffee shop is usually packed with people, it is worth to squeeze in and try their signature Avocado Coffee Float. The strong taste of coffee blends perfectly with the soft texture of avocado juice, topped with sweet and chocolatey taste of chocolate ice-cream. They have various snacks as well, though the Avocado Coffee Float itself is already fulfilling enough. If you prefer the original taste of coffee, they sure have the qualification. The downside is, as the place is usually packed and lots of people usually queueing, you can't really stay for long to chat. But don't worry, you can always jump into another place.",
+      "description": "Although this coffee shop is usually packed with people, it is worth to squeeze in and try their signature Avocado Coffee Float. The strong taste of coffee blends perfectly with the soft texture of avocado juice, topped with sweet and chocolatey taste of chocolate ice-cream. They have various snacks as well, though the Avocado Coffee Float itself is already fulfilling enough. If you prefer the original taste of coffee, they sure have the qualification. The downside is you can't really stay for long to chat. But don't worry, you can always jump into another place.",
       "mira": "The Avocado Coffee Float is good, but it's somehow too sweet to my tastebud. (3/5)",
       "junda": "I'm not a big fan of coffee nor avocado, but mix them up together with ice cream, the result is pure delight. (4/5)"
     },
@@ -47,7 +50,7 @@
       "images": "images/eat-sumsum.jpg",
       "credit": "foursquare",
       "cost": "IDR 120k (for two pax)",
-      "description": "Since Junda was little, his mom often feed him bone marrow of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancies a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one group can only order maximum 2 servings of marrow soup as cow marrows are quite hard to come by. So if you came with a big group, divide your group into twos and pretend that you don't know each other.",
+      "description": "Since Junda was little, his mom often feed him bone marrow of cows or chickens. He grew up liking it ever since. Once he heard that Medan has a soup restaurant that allows you to <i>drink</i> the merry thing, he wasted no time going there. For those who fancy a bit more spine in their life, we recommend giving Sop Langsa a try. There was a catch to this place though, one group can only order maximum 2 servings of marrow soup as cow marrows are quite hard to come by. So if you came with a big group, divide your group into twos and pretend that you don't know each other.",
       "mira": "No, thank you. (1/5)",
       "junda": "A jolly in your belly. Though finishing the whole thing is known to be quite a chore. (3.5/5)"
     },
@@ -59,7 +62,7 @@
       "images": "images/eat-sinarpagi.jpg",
       "credit": "mhm.asia",
       "cost": "IDR 60k (for two pax)",
-      "description": "Medanese usually eat this for breakfast. We know you've tried soto, but we swear this one will be different. Expect something like Soto Betawi, but it used coconut milk instead of fresh milk. The taste is richer, we guess it uses more herbs and spices inside. Mira likes it with beef inside, but Junda likes it mixed with the innards. The beef has rich smokey fragrance that blends perfectly with the soup. To add the perfection, it served with tasty green sambal. A helpful tip: mix the sambal with sweet soy sauce, you'll thank us later. The restaurant might seems busy all the time but I can assure you that they're the high-scorer in the Dinner Dash game as they will serve you quickly",
+      "description": "Medanese usually eat this for breakfast. We know you've tried soto, but we swear this one will be different. Expect something like Soto Betawi, but it used coconut milk instead of dairy milk. The taste is richer, we guess it uses more herbs and spices inside. Mira likes it with beef inside, but Junda likes it mixed with the innards. The beef has rich smokey fragrance that blends perfectly with the soup. To add the perfection, it served with tasty green sambal. A helpful tip: mix the sambal with sweet soy sauce, you'll thank us later. The restaurant might seems busy all the time but we can assure you that they're the high-scorer in the Dinner Dash game as they will serve you quickly",
       "mira": "I'm drolling just writing this. (5/5)",
       "junda": "Expect to get yelled at upon arrival, Medan-style. (4.5/5)"
     },
@@ -83,7 +86,7 @@
       "images": "images/eat-titibobrok.jpg",
       "credit": "instagram.com/jogjabikinlaper/",
       "cost": "IDR 70k (for two pax)",
-      "description": "Having Aceh as next-door neighbour, finding legendary Aceh cuisine in Medan is a snap. Having said, Mie Aceh Titi Boborok is a must try as it is one of the best Mie Aceh that we've ever tasted, indeed. Our affection for them grew even more for their dirt cheap price. For <i>less</i> than 20k you can have a full plate of Mie Aceh right in front of you. Have it fried, stewed, or just a stir-fried (with a bit of soup, but not as wet as the stewed one). Choose Beef, chicken, or even the whole crab as topping. We love our noodles wet, as it brings more flavour that way. Our extra tip for you: this shop and Sop Langsa is located side-by-side so adjust your stomach accordingly. And oh, do order the martabak telor while you were here!",
+      "description": "Having Aceh as next-door neighbour, finding legendary Aceh cuisine in Medan is a snap. Having said, Mie Aceh Titi Bobrok is a must try as it is one of the best Mie Aceh that we've ever tasted, indeed. Our affection for them grew even more for their dirt cheap price. For <i>less</i> than 20k you can have a full plate of Mie Aceh right in front of you. Have it fried, stewed, or just a stir-fried (with a bit of soup, but not as wet as the stewed one). Choose Beef, chicken, or even the whole crab as topping. We love our noodles wet, as it brings more flavour that way. Our extra tip for you: this shop and Sop Langsa is located side-by-side so adjust your stomach accordingly. And oh, do order the martabak telor while you were here!",
       "mira": "To me, no mie aceh tastes as good as Titi Bobrok (4/5)",
       "junda": "Once you try this one, no other Mie Aceh in Jakarta will taste good. (5/5)"
     },
@@ -121,7 +124,7 @@
       "cost": "IDR 35k for the ice cream",
       "description": "This is the oldest shop in our list, established in 1929. Everything about this place screams old! They have dutch-period cashier registry and telephony that is now became parts of decoration, and also a wooden oven that is still fully functioning as some of their cookies are made in this oven. We haven't try too much variety from their menu, but the ones that we do try is exquisite. You could also try the beef tongue steak. If you like sate padang, this is one click better. They serve lots of alcoholic ice creams but you can tell them if you prefer it non-alcoholic.",
       "mira": "Nice classic vibes but I prefer Es Krim Ria. (3/5)",
-      "junda": "Not as expensive as the outer appearance indicate. (3.5/5)"
+      "junda": "Not as expensive as the outer appearance indicates. (3.5/5)"
     },
     {
       "anchor": "eskrim-ria",
@@ -150,18 +153,139 @@
   ]
 },{
   "sightsee": [
-    {
-      "anchor": "maimun",
-      "title": "Istana Maimun",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
-      "cost": "IDR 100k (for two pax)",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, sodales ac laoreet non, suscipit at turpis. Nulla facilisi. Curabitur vitae ante a quam pulvinar vulputate. Donec massa libero, convallis sit amet mauris interdum, fringilla tincidunt mauris. Sed magna lorem, bibendum ut risus a, laoreet aliquam massa. Duis tellus elit, efficitur rutrum nibh ac, mattis imperdiet dui. Pellentesque lorem augue, hendrerit id ullamcorper vel, dictum in purus. Duis eget aliquam ipsum. Vestibulum eu dolor a turpis feugiat tempus.",
-      "mira": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)",
-      "junda": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas! (5/5)"
-    }
+  {
+    "anchor": "maimun",
+    "title": "Istana Maimun",
+    "address": "Jl. Sultan Ma'moen Al Rasyid No.66",
+    "latlng": "https://goo.gl/maps/qTjNpMRa3vE2",
+    "images": "images/sight-maimun.jpg",
+    "credit": "travel.detik.com",
+    "cost": "IDR 5k - 10k (approximately)",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "mesjid-raya",
+    "title": "Mesjid Raya Al-Mashun",
+    "address": " Jl. Sisingamangaraja No.61",
+    "latlng": "https://goo.gl/maps/F88phbetx3R2",
+    "images": "images/sight-mesjidraya.jpg",
+    "credit": "arsitektour.wordpress.com",
+    "cost": "free",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "tjongafie",
+    "title": "Tjong A Fie Mansion",
+    "address": "Jl. Jendral Ahmad Yani No.105",
+    "latlng": "https://goo.gl/maps/fV9axGgfCmQ2",
+    "images": "images/sight-tjongafie.jpg",
+    "credit": "KSMTour.com",
+    "cost": "IDR 35K/pax (1 hour guided tour)",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "shri-mariamman",
+    "title": "Kuil Shri Mariamman",
+    "address": "Jl. Teuku Umar No.18",
+    "latlng": "https://goo.gl/maps/Q7LwYGNZYXD2",
+    "images": "images/sight-mariamman.jpeg",
+    "credit": "justgola.com",
+    "cost": "free",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "gereja-maria",
+    "title": "Graha Maria Annai Velangkanni",
+    "address": "Perumahan Taman Sakura Indah, Jl. Sakura III No.7, Tj. Selamat",
+    "latlng": "https://goo.gl/maps/6wdDdZZY7To",
+    "images": "images/sight-maria.jpg",
+    "credit": "klikhotel.com",
+    "cost": "free",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "danau-toba",
+    "title": "Danau Toba",
+    "address": "Tongging, Kabupaten Karo",
+    "latlng": "https://goo.gl/maps/nDFLFuEfDAQ2",
+    "images": "images/sight-tongging.jpg",
+    "credit": "Mira Afianti",
+    "cost": "free for sight seeing",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  },
+  {
+    "anchor": "taman-lumbini",
+    "title": "Taman Alam Lumbini",
+    "address": "Barus Jahe, Brastagi",
+    "latlng": "https://goo.gl/maps/df6omACuTTp",
+    "images": "images/sight-lumbini.jpg",
+    "credit": "travellink-indonesia.com",
+    "cost": "IDR 5k/pax",
+    "description": "",
+    "around": [{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    },{
+      "title": "",
+      "images": "",
+      "latlng": ""
+    }]
+  }
   ]
 },{
   "souvenir": [

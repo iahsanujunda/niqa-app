@@ -78,7 +78,7 @@
             <% for (var j=0; j<airport[i].transport.length; j++) { %>
             <div class="row desc-transport">
               <div class="col-sm-4 gambar-kno-container">
-                <img src="images/kno-train.jpg" alt="" class="gambar-kno">
+                <img src="<%= airport[i].transport[j].image %>" alt="" class="gambar-kno">
               </div>
               <div class="col-sm-8 text-kno-container">
                 <p class="kno-trans-title"><%= airport[i].transport[j].title %></p>
@@ -155,7 +155,7 @@
             <div class="title"><h3><strong><%= sightsee[i].title %></strong></h3></div>
             <div class="address">
               <img class="address-icon" src="images/icon-location.png"/>
-              <a href="<%= eats[i].latlng %>">
+              <a href="<%= sightsee[i].latlng %>">
                 <h6 class="address-text"><%= sightsee[i].address %></h6>
               </a>
             </div>
@@ -163,7 +163,7 @@
               <div class="col-md-5">
                 <div class="row" id="gambar-container">
                   <div class="gambar col-md-12">
-                    <img class="gambar-img" src="<%= eats[i].images %>"/>
+                    <img class="gambar-img" src="<%= sightsee[i].images %>"/>
                   </div>
                   <div class="gambar-credit col-md-12">
                     Credit: <%= sightsee[i].credit %>
