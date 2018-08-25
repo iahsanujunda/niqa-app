@@ -146,13 +146,61 @@
 
 
 
+      <!-- Sightsee Section START -->
       <div class="section">
-        <div class="slide" data-anchor="sightsee">
+        
+        <% for (var i=0; i<sightsee.length; i++) { %>
+        <div class="slide" data-anchor="<%= sightsee[i].anchor %>">
           <div class="container col-md-10">
-            <div class="title"><h3><strong>Sightsee</strong></h3></div>
+            <div class="title"><h3><strong><%= sightsee[i].title %></strong></h3></div>
+            <div class="address">
+              <img class="address-icon" src="images/icon-location.png"/>
+              <a href="<%= eats[i].latlng %>">
+                <h6 class="address-text"><%= sightsee[i].address %></h6>
+              </a>
+            </div>
+            <div class="content-body row">
+              <div class="col-md-5">
+                <div class="row" id="gambar-container">
+                  <div class="gambar col-md-12">
+                    <img class="gambar-img" src="<%= eats[i].images %>"/>
+                  </div>
+                  <div class="gambar-credit col-md-12">
+                    Credit: <%= sightsee[i].credit %>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <h6 class="cost">Admission Fee :
+                  <span class="cost">&nbsp; <%= sightsee[i].cost %></span>
+                </h6>
+                <h6 class="description"><%- sightsee[i].description %></h6>
+              </div>
+            </div>
+            <div class="row nearby-container">
+              <div class="col-md-12 nearby-label" id="">Around Here :</div>
+              <div class="col-md-4 col-xs-12">
+                <div class="nearby-item">
+                  Around 1
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12">
+                <div class="nearby-item">
+                  Around 2
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12">
+                <div class="nearby-item">
+                  Around 3
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <% } %>
+
       </div>
+      <!-- Sightsee Section END -->
 
 
       <!-- Souvenir Section START -->

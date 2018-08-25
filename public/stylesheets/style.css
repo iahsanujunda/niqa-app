@@ -285,6 +285,25 @@ h6 .cost {
   font-weight: 100;
 }
 
+
+/* Sightsee */
+.nearby-container {
+  margin-top: 3em;
+  padding: 0 2em;
+}
+
+.nearby-label {
+  margin-bottom: 1em;
+}
+
+.nearby-item {
+  border: solid 1px #000;
+}
+
+
+
+/* Fullpage */
+
 .fp-slidesNav {
   display: inline-block;
   text-align: center;
