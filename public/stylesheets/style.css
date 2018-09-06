@@ -5,7 +5,7 @@
 
 body {
   padding: 50px;
-  font: 10px 'Quicksand', sans-serif;
+  font: 10px 'Roboto', sans-serif;
   color: #183d74;
 }
 
@@ -319,12 +319,13 @@ h6 .cost {
   object-fit: cover;
   margin: 0;
   height: 4em;
-  width: inherit;
+  width: 6em;
 }
 
 .nearby-item .nearby-title {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  margin-left: 1em;
 }
 
 
@@ -411,48 +412,63 @@ h6 .cost {
  *  3. Invitation Section Layout
  */
 
-.invitation-main-title {
-  text-align: center;
-  font-size: 4em;
-}
-
-#invitation-main .fp-bg {
+#invitation-main #slide-main .fp-bg {
   background-image: url('../images/bg-london.png');
   background-repeat: no-repeat;
   background-size: 65%;
-  background-position: 50% 25%;
+  background-position: 50% 10%;
 }
 
 
 #para-muka {
-  position: absolute;
-  max-height: 70%;
-  width: 70%;
+  position: relative;
+  height: auto;
+  width: 68%;
   display: block;
-  left: 17%;
-  top: 5%;
+  left: 18%;
+  top: 1%;
   z-index: 1;
 }
 
 #para-bus {
   position: absolute;
-  max-height: 70%;
-  width: 70%;
+  height: auto;
+  width: 76%;
   display: block;
-  top: 5%;
-  right: 12%;
+  top: -6%;
+  right: 11%;
   z-index: 3;
 }
 
 #para-phone {
   position: absolute;
-  max-height: 70%;
-  width: 70%;
+  height: auto;
+  width: 76%;
   display: block;
-  top: 5%;
-  left: 18%;
+  top: -6%;
+  left: 14%;
   z-index: 3;
 }
+
+.invitation-content {
+  text-align: center;
+  font-size: 15px;
+}
+
+.invitation-content #inv-nama {
+  font-size: 35px;
+}
+
+
+#invitation-main #slide-detail .fp-bg {
+  background-image: url('../images/muka.png');
+  background-repeat: no-repeat;
+  background-size: 72%;
+  background-position: 110% 110%;
+  opacity: 0.3;
+}
+
+
 
 @media (max-width: 576px) {
   #invitation-main .fp-bg {

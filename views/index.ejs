@@ -130,11 +130,11 @@
             <div class="row rating">
               <div class="col-md-5 col-xs-12">
                 <div class="row">Mira says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].mira %></div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%- eats[i].mira %></div>
               </div>
               <div class="col-md-5 col-xs-12 ml-auto junda">
                 <div class="row">Junda says:</div>
-                <div class="row saying">&nbsp; &nbsp; &nbsp; <%= eats[i].junda %></div>
+                <div class="row saying">&nbsp; &nbsp; &nbsp; <%- eats[i].junda %></div>
               </div>
             </div>
           </div>
@@ -246,22 +246,24 @@
 
       <!-- Invitation Section START -->
       <div class="section active" id="invitation-main">
-        <div class="slide" data-anchor="mnj">
+        <div class="slide" data-anchor="mnj" id="slide-main">
           <div class="fp-bg"></div>
           <div class="container col-md-10">
-            <div class="invitation-main-title">Wedding Day</div>
             <img src="images/muka.png" alt="" id="para-muka">
             <img src="images/bus.png" alt="" id="para-bus">
             <img src="images/phonebooth.png" alt="" id="para-phone">
+            <div class="invitation-content col-md-12">
+              Together we invite you to our wedding,
+              <div id="inv-date">20 Okt</div>
+              <div id="inv-time"></div>
+            </div>
           </div>
         </div>
-        <div class="slide" data-anchor="details">
+        <div class="slide" data-anchor="details" id="slide-detail">
           <div class="fp-bg"></div>
           <div class="container col-md-10">
-            <div class="invitation-main-title">Wedding Day</div>
-            <img src="images/muka.png" alt="" id="para-muka">
-            <img src="images/bus.png" alt="" id="para-bus">
-            <img src="images/phonebooth.png" alt="" id="para-phone">
+            <div class="invitation-paragraph">
+            </div>
           </div>
         </div>
       </div>
