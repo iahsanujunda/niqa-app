@@ -1,33 +1,35 @@
 [{
-  "airport": [{
-    "title": "Welcome to Medan!",
-    "desc": "We know that you might feel a bit clueless and overwhelmed to visit Medan. Don't worry though, we are here to help. Just slide right or down to the section you are interested in."
-  },
-  {
-    "transport": [
-      {
-        "title": "Airport Train",
-        "image": "images/kno-railink.jpg",
-        "cost": "IDR 75K/pax",
-        "pros": "Fastest among the bunch, 45 minutes get you to city center.",
-        "cons": "More people, more money."
-      },
-      {
-        "title": "Damri",
-        "image": "images/kno-damri.jpg",
-        "cost": "IDR 20K/pax",
-        "pros": "Cheapest option and various destinations are available (consult us!)",
-        "cons": "Not knowing which bus to take could make you stranded in an unfamiliar teritory."
-      },
-      {
-        "title": "Airport Taxi",
-        "image": "images/kno-taxi.jpg",
-        "cost": "IDR 300K/car depends on how good you bargain",
-        "pros": "Don't take this. Just dont!",
-        "cons": "And don't order grab or gocar either! You might get caught."
-      }
-    ]
-  }]
+  "airport": [
+    {
+      "title": "Welcome to Medan!",
+      "desc": "We know that you might feel a bit clueless and overwhelmed to visit Medan. Don't worry though, we are here to help. Just slide right or down to the section you are interested in."
+    },
+    {
+      "transport": [
+        {
+          "title": "Airport Train",
+          "image": "images/kno-railink.jpg",
+          "cost": "IDR 75K/pax",
+          "pros": "Fastest among the bunch, 45 minutes get you to city center.",
+          "cons": "More people, more money."
+        },
+        {
+          "title": "Damri",
+          "image": "images/kno-damri.jpg",
+          "cost": "IDR 20K/pax",
+          "pros": "Cheapest option and various destinations are available (consult us!)",
+          "cons": "Not knowing which bus to take could make you stranded in an unfamiliar teritory."
+        },
+        {
+          "title": "Airport Taxi",
+          "image": "images/kno-taxi.jpg",
+          "cost": "IDR 300K/car depends on how good you bargain",
+          "pros": "Don't take this. Just dont!",
+          "cons": "And don't order grab or gocar either! You might get caught."
+        }
+      ]
+    }
+  ]
 },{
   "eat": [
     {
@@ -301,64 +303,64 @@
     {
       "anchor": "bolu-meranti",
       "title": "Bolu Meranti",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
-      "cost": "IDR 85k (for one roll)",
+      "address": "Jl. Kruing No. 2K",
+      "latlng": "https://goo.gl/maps/MCjytn71P3z",
+      "images": "images/souvenir-meranti.jpg",
+      "credit": "zeinguerin.com",
+      "cost": "IDR 65K - 85k (for one roll)",
       "description": "If you said to your colleague that you just back from Medan but you didn't bring Meranti to office, your colleague won't believe you. This is the item that everybody think about when they hear Medan.",
       "audience": "Office colleagues. Bolu meranti could stay good at room temperature for days. The cake can be sliced to tiny pieces, so big groups could enjoy them."
     },
     {
       "anchor": "bika-ambon-zulaikha",
       "title": "Bika Ambon Zulaikha",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
-      "cost": "IDR 100k (for two pax)",
-      "description": "There are lots of bika ambon shops in Medan, but Zulaikha stood the most.",
+      "address": "Jl. Mojopahit No.70 A-C",
+      "latlng": "https://goo.gl/maps/kUBqdZvkvE52",
+      "images": "images/souvenir-zulaikha.jpg",
+      "credit": "bukalapak.com",
+      "cost": "IDR 50K (for one box - approx)",
+      "description": "There are lots of bika ambon shops in Medan, but Zulaikha is quite the famous one.",
       "audience": "Office Colleagues. Like bolu meranti, bika ambon could stay good for days in room temperature, and could also be enjoyed by big groups."
     },
     {
       "anchor": "sate-kerang-rahmat",
       "title": "Sate Kerang Rahmat",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
-      "cost": "IDR 100k (for two pax)",
+      "address": "Jl. Kruing No.3D",
+      "latlng": "https://goo.gl/maps/83EQd7DdHC52",
+      "images": "images/souvenir-rahmat.jpg",
+      "credit": "gnews.online",
+      "cost": "IDR 100k (for a box consists of 20 pcs)",
       "description": "We've tried various sate kerang from various places in medan, and we agreed that sate kerang rahmat tops our list. The combination of spices and the shell is perfect. Once the shop hand you the box, it's hard to walk away without opening it, therefore you best buy some for your own consumption excluding the souvenir portions.",
       "audience": "Household. Sate kerang could only stay good for maximum 12 hours at room temperature, and it was best served warm, so they are suitable for anyone present upon your arrival at home."
     },
     {
       "anchor": "durian-house",
       "title": "Pancake Durian, Durian House",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
+      "address": "Jl. Sekip, No. 67 H",
+      "latlng": "https://goo.gl/maps/gT32wb7yQ4n",
+      "images": "images/souvenir-durian.jpg",
+      "credit": "airfrov.id",
       "cost": "IDR 100k (for two pax)",
-      "description": "",
+      "description": "If you like durian, you will like pancake durian. If you do decide to buy some of these, you should buy at least three boxes, they will give you thermal-insulated packaging.",
       "audience": "Loved ones, assuming your loved ones love durian. Pancake durian is quite pricey, hard to carry, and they get bad easily. You have to be sure the one you intend to give them to worth all the effort."
     },
     {
       "anchor": "manisan-jambu",
-      "title": "Manisan Jambu",
-      "address": "Jl. Karo, No 20",
-      "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
-      "credit": "http://example.com/sample",
-      "cost": "IDR 100k (for two pax)",
-      "description": "",
+      "title": "Manisan Jambu Aguan",
+      "address": "Jl. Kruing",
+      "latlng": "https://goo.gl/maps/BiUZdNt422N2",
+      "images": "images/souvenir-jambu.png",
+      "credit": "tokopedia.com",
+      "cost": "IDR 15k/kg (for two pax)",
+      "description": "Another fruity delights. Think of this like rujak: fruit with thick sauce. Tell the shop that you are bringing them aboard an airplane, they know how to pack it.",
       "audience": "Household. Another item that gets bad easily. The good thing about them is that they are cheap and easy to carry around."
     },
     {
       "anchor": "mak-upik",
       "title": "Teri Kacang Medan Mak Upik",
-      "address": "Jl. Karo, No 20",
+      "address": "Online",
       "latlng": "https://goo.gl/maps/eTS1uLRXP3r",
-      "images": "images/macehat.jpg",
+      "images": "images/souvenir-makupik.jpg",
       "credit": "http://example.com/sample",
       "cost": "IDR 100k (for two pax)",
       "description": "This item is made in medan, sold by a medanese, with ingredients from local medan market. The owner might be busy when you got there, but you can always order them online via tokopedia.",
