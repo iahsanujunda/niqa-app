@@ -367,4 +367,11 @@
       "audience": "your office mates, your wife, your husband, your parents, anyone really."
     }
   ]
+},{
+  "invitation": {
+    "time": "Saturday, October 20th 2018",
+    "place": "Gelanggang Mahasiswa UIN",
+    "latlng": "",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat nibh a orci placerat, id porttitor elit interdum. Integer egestas erat et fringilla elementum. Vivamus dictum tempus ex sed venenatis. Fusce cursus id mi in volutpat. Nam et hendrerit ex. Etiam non ante id libero aliquam aliquam id id enim. Praesent eu ex dapibus, efficitur nulla vel, fermentum risus. In massa ante, mollis nec magna ac, aliquet mattis ante. Maecenas ligula justo, dapibus in dui ac, bibendum sagittis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula hendrerit eros a feugiat. Maecenas id dapibus purus, at tincidunt justo. Pellentesque et aliquet massa. Fusce vehicula cursus elit, vitae varius mauris tristique ut.\nCras eget magna sit amet tellus hendrerit cursus. Nunc gravida nisl nec tortor aliquet ullamcorper vel in nulla. Sed neque nunc, imperdiet quis ornare at, congue sit amet elit. Integer ornare sagittis lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla vitae gravida massa, sit amet accumsan dui. Nullam feugiat metus quis dictum pharetra. Maecenas nisl tellus, maximus eu massa vel, iaculis iaculis diam. Morbi nec nisl quis tellus molestie varius vel vel mauris. Vivamus vitae facilisis lorem. Sed varius diam justo, at pellentesque arcu rutrum sed. Aenean eu gravida purus. Nunc tincidunt vel sem in pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dolor quis turpis semper tristique. Fusce facilisis enim eget nisi tincidunt mollis."
+  }
 }]

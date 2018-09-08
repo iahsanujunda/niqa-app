@@ -105,7 +105,7 @@
             <div class="title"><h3><strong><%= eats[i].title %></strong></h3></div>
             <div class="address">
               <img class="address-icon" src="images/icon-location.png"/>
-              <a href="<%= eats[i].latlng %>">
+              <a href="<%= eats[i].latlng %>" target="_blank">
                 <h6 class="address-text"><%= eats[i].address %></h6>
               </a>
             </div>
@@ -155,7 +155,7 @@
             <div class="title"><h3><strong><%= sightsee[i].title %></strong></h3></div>
             <div class="address">
               <img class="address-icon" src="images/icon-location.png"/>
-              <a href="<%= sightsee[i].latlng %>">
+              <a href="<%= sightsee[i].latlng %>"target="_blank">
                 <h6 class="address-text"><%= sightsee[i].address %></h6>
               </a>
             </div>
@@ -207,7 +207,7 @@
             <div class="title"><h3><strong><%= souvenirs[i].title %></strong></h3></div>
             <div class="address">
               <img class="address-icon" src="images/icon-location.png"/>
-              <a href="<%= souvenirs[i].latlng %>">
+              <a href="<%= souvenirs[i].latlng %>" target="_blank">
                 <h6 class="address-text"><%= souvenirs[i].address %></h6>
               </a>
             </div>
@@ -253,9 +253,11 @@
             <img src="images/bus.png" alt="" id="para-bus">
             <img src="images/phonebooth.png" alt="" id="para-phone">
             <div class="invitation-content col-md-12">
-              Together we invite you to our wedding,
-              <div id="inv-date">20 Okt</div>
-              <div id="inv-time"></div>
+              Together we invite you to our wedding on:
+              <div id="inv-date">Saturday, October 20th 2018</div>
+              <div id="inv-time">
+                <a href="" target="_blank">@ <%= invitation.place %></a>
+              </div>
             </div>
           </div>
         </div>
@@ -263,6 +265,7 @@
           <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="invitation-paragraph">
+              <%- invitation.paragraph %>
             </div>
           </div>
         </div>
