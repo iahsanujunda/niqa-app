@@ -2,14 +2,14 @@
   "airport": [
     {
       "title": "Welcome to Medan!",
-      "desc": "We know that you might feel a bit clueless and overwhelmed to visit Medan. Don't worry though, we are here to help. Just slide right or down to the section you are interested in."
+      "desc": "Should you feel a bit clueless and overwhelmed to visit Medan, don't worry. We are here to help. Just slide right or down to the section you are interested in."
     },
     {
       "transport": [
         {
           "title": "Airport Train",
           "image": "images/kno-railink.jpg",
-          "cost": "IDR 75K/pax",
+          "cost": "IDR 100K/pax",
           "pros": "Fastest among the bunch, 45 minutes get you to city center.",
           "cons": "More people, more money."
         },
