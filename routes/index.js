@@ -17,13 +17,4 @@ router.get('/', function(req, res, next) {
   });
 });
 
-// console.log(content[0].airport[1].transport[0].title);
-
-
-
-/* GET sample page. */
-router.get('/sample', function(req, res, next) {
-  res.render('sample', { title: 'Express' });
-});
-
 module.exports = router;
