@@ -12,7 +12,8 @@ router.get('/', function(req, res, next) {
     airport: content[0].airport,
     eats: content[1].eat,
     sightsee: content[2].sightsee,
-    souvenirs: content[3].souvenir
+    souvenirs: content[3].souvenir,
+    invitation: content[4].invitation
   });
 });
 

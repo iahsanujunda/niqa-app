@@ -5,7 +5,7 @@
 
 body {
   padding: 50px;
-  font: 10px 'Roboto', sans-serif;
+  font: 10px 'Roboto', Arial, serif;
   color: #183d74;
 }
 
@@ -452,7 +452,8 @@ h6 .cost {
 
 .invitation-content {
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 2em;
 }
 
 .invitation-content #inv-nama {
