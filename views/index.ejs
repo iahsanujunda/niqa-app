@@ -67,6 +67,7 @@
             <div class="title-kno">
               <strong><%= airport[i].title %></strong>
             </div>
+            <img src="images/kno-front.jpg" alt="" class="gambar-front">
             <div class="desc-kno"><%= airport[i].desc %></div>
           </div>
         </div>
@@ -101,7 +102,8 @@
       <div class="section">
 
         <% for (var i=0; i<eats.length; i++) { %>
-        <div class="slide" data-anchor="<%= eats[i].anchor %>">
+        <div class="slide eats-sect" data-anchor="<%= eats[i].anchor %>">
+          <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="title"><h3><strong><%= eats[i].title %></strong></h3></div>
             <div class="address">
@@ -151,7 +153,8 @@
       <div class="section">
         
         <% for (var i=0; i<sightsee.length; i++) { %>
-        <div class="slide" data-anchor="<%= sightsee[i].anchor %>">
+        <div class="slide sight-sect" data-anchor="<%= sightsee[i].anchor %>">
+          <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="title"><h3><strong><%= sightsee[i].title %></strong></h3></div>
             <div class="address">
@@ -203,7 +206,8 @@
       <div class="section">
         
         <% for (var i=0; i<souvenirs.length; i++) { %>
-        <div class="slide" data-anchor="<%= souvenirs[i].anchor %>">
+        <div class="slide souv-sect" data-anchor="<%= souvenirs[i].anchor %>">
+          <div class="fp-bg"></div>
           <div class="container col-md-10">
             <div class="title"><h3><strong><%= souvenirs[i].title %></strong></h3></div>
             <div class="address">

@@ -157,13 +157,6 @@ img {
   position: relative;
 }
 
-#airport-slide .fp-bg {
-  background-image: url('../images/kno-front.jpg');
-  background-repeat: no-repeat;
-  background-size: 58%;
-  background-position: 50% 35%;
-}
-
 .title-kno {
   margin-top: .5em;
   text-align: center;
@@ -171,10 +164,16 @@ img {
 }
 
 .desc-kno {
-  position: relative;
   text-align: center;
   font-size: 1.4em;
-  bottom: -32em;
+}
+
+.gambar-front {
+  object-fit: cover;
+  display: block;
+  height: auto !important;
+  width: 70%;
+  margin: 3em auto;
 }
 
 .icon-kno {
@@ -227,6 +226,10 @@ img {
 
 
 /* Eats */
+
+.eats-sect .fp-bg {
+  display: none;
+}
 
 .title {
   margin: 0 20px;
@@ -299,6 +302,10 @@ h6 .cost {
 
 
 /* Sightsee */
+.sight-sect .fp-bg {
+  display: none;
+}
+
 .nearby-container {
   margin-top: 3em;
   padding: 0 2em;
@@ -331,6 +338,10 @@ h6 .cost {
 
 
 /* Souvenirs */
+
+.souv-sect .fp-bg {
+  display: none;
+}
 
 .suitable-label {
   margin-top: 2em;
@@ -522,6 +533,31 @@ h6 .cost {
     padding: 0px 0px;
   }
 
+  .desc-kno {
+    line-height: 1.4em;
+  }
+
+  .gambar-kno {
+    display: none;
+  }
+
+  .desc-transport {
+    margin-top: 2em;
+  }
+
+  .text-kno-container {
+    margin: 0 .5em;
+    font-size: 8px;
+  }
+
+  .text-kno-container .kno-trans-title {
+    margin-bottom: .7em;
+  }
+
+  .text-kno-container .kno-trans-cost {
+    margin-bottom: .7em;
+  }
+
   .title {
     top: -2.5em;
   }
@@ -561,7 +597,7 @@ h6 .cost {
   .gambar-img {
     object-fit: cover;
     display: block;
-    height: 200px !important;
+    height: 170px !important;
     width: 89%;
     margin: 0 auto;
   }
@@ -585,31 +621,81 @@ h6 .cost {
     margin-top: 14px;
   }
 
+  .nearby-item {
+    margin-top: .5em;
+  }
+
   .fp-slidesNav.fp-bottom {
     bottom: 0;
   }
 
   .invitation-content {
     margin-top: 2em;
+    font-size: 1em;
   }
 
   .invitation-img {
     object-fit: cover;
     display: block;
-    height: 200px !important;
+    height: 170px !important;
     width: 89%;
     margin: 0 auto;
   }
   
   .invitation-paragraph {
-    font-size: 1.8;
+    font-size: 1em;
     line-height: 1.5em;
     margin: 0 1.3em;
   }
 
   #slide-detail .container .content-body {
     position: relative;
-    top: -3em;
+    top: -5em;
+  }
+
+
+
+  /* Background */
+  .eats-sect .fp-bg {
+    opacity: 0.3;
+    display: block;
+    background-image: url('../images/icon-eat-active.png');
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: 94% 0%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  .sight-sect .fp-bg {
+    opacity: 0.3;
+    display: block;
+    background-image: url('../images/icon-sightsee-active.png');
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: 94% 0%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  .souv-sect .fp-bg {
+    opacity: 0.3;
+    display: block;
+    background-image: url('../images/icon-gift-active.png');
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: 94% 0%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
   }
 }
 
