@@ -255,6 +255,7 @@ img {
 
 .content-body {
   margin-top: 5em;
+  position: relative;
 }
 
 #gambar-container {
@@ -452,7 +453,7 @@ h6 .cost {
 
 .invitation-content {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 2em;
 }
 
@@ -460,13 +461,21 @@ h6 .cost {
   font-size: 35px;
 }
 
+.invitation-img {
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  top: 80%;
+  transform: translateY(-50%);
+}
 
-#invitation-main #slide-detail .fp-bg {
-  background-image: url('../images/muka.png');
-  background-repeat: no-repeat;
-  background-size: 72%;
-  background-position: 110% 110%;
-  opacity: 0.3;
+.invitation-paragraph {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
 }
 
 
@@ -527,6 +536,7 @@ h6 .cost {
 
   .content-body {
     margin-top: 0;
+    position: relative;
   }
 
 
