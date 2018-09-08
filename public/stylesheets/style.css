@@ -625,6 +625,14 @@ h6 .cost {
     margin-top: .5em;
   }
 
+  .suitable-item {
+    margin: 1em 1em;
+  }
+
+  .suitable-label {
+    margin: 1em 1em;
+  }
+
   .fp-slidesNav.fp-bottom {
     bottom: 0;
   }
