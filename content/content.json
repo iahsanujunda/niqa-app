@@ -18,7 +18,7 @@
           "image": "images/kno-damri.jpg",
           "cost": "IDR 20K/pax",
           "pros": "Cheapest option and various destinations are available (consult us!)",
-          "cons": "Not knowing which bus to take could make you stranded in an unfamiliar teritory."
+          "cons": "Not knowing which bus to take could make you stranded in an unfamiliar territory."
         },
         {
           "title": "Airport Taxi",
@@ -148,7 +148,7 @@
       "images": "images/eat-coffeebox.jpg",
       "credit": "crazfood.com",
       "cost": "IDR 75k (for one pax)",
-      "description": "If you landed in Medan on Saturday and fly back on Sunday, then unfortunately for you, you might be able to get only the drool. But fret not, Coffebox is the one-stop-solution for you. You can order lontong medan, sate kerang, mie rebus, martabak telor, Es Kietna, and various kind of foods here. ALthough to be fair, the taste was not as good as the original places we listed before. We love their Es Kopi Malaka and Bakwan Bumbu Pecel. Furthermore, it has cozy vibes and the so called instagramable (God, We hate this term) decoration. The place itself used to be an old town jail, so it have classic feel to it. We'd like nothing more that hanging-out here with friends.",
+      "description": "If you landed in Medan on Saturday and fly back on Sunday, then unfortunately for you, you might only drool on our list. But fret not, Coffebox is the one-stop-solution for you. You can order lontong medan, sate kerang, mie rebus, martabak telor, Es Kietna, and various kind of foods here. ALthough to be fair, the taste was not as good as the original places we listed before. We love their Es Kopi Malaka and Bakwan Bumbu Pecel. Furthermore, it has cozy vibes and the so called instagramable (God, We hate this term) decoration. The place itself used to be an old town jail, so it have classic feel to it. We'd like nothing more that hanging-out here with friends.",
       "mira": "When in doubt, go to Coffeebox. (3.5/5)",
       "junda": "Can be crowded, but very nice when it was not. (3.5/5)"
     }
@@ -201,15 +201,15 @@
       "images": "images/sight-tjongafie.jpg",
       "credit": "KSMTour.com",
       "cost": "IDR 35K/pax (1 hour guided tour)",
-      "description": "",
+      "description": "If you happen to visit Tip Top or just passing by Kesawan street, you will hardly miss 2-storey building, for its unique and antiqueness. This house is indeed one of a kind, it is an important part of Medan history. It was built in 1860 by Tjong A Fie, a Hakka Chinese businessman who came all the way from China to Medan. He owned a large plantation business in Sumatera, and was appointed as a major of Chinese community in Medan. He was a highly respected person, as he was also a master of the economics and politics of Medan. He had a close relationship with the Sultan Deli (the ruler of Land Deli, known as Medan) at the time. Do spare your time to visit and join the 1 hour guided tour to admire the beauty of the house and deeper story of him. For you who fancy architecture, you'll be fascinated by the mixture style of Malay, European, and Tionghoa, where it also has hand-painted floor tiles from Italy and walls that illustrates the life in China with amazing detail. ",
       "around": [{
-        "title": "",
-        "images": "",
-        "latlng": ""
+        "title": "Tip Top",
+        "images": "images/eat-tiptop.jpg",
+        "latlng": "https://goo.gl/maps/T4LBd7Ug2H52"
       },{
-        "title": "",
-        "images": "",
-        "latlng": ""
+        "title": "Mie Ayam Akong/Acim",
+        "images": "images/eat-akong.jpg",
+        "latlng": "https://goo.gl/maps/km9mFxJmocA2"
       }]
     },
     {
@@ -220,15 +220,15 @@
       "images": "images/sight-mariamman.jpeg",
       "credit": "justgola.com",
       "cost": "free",
-      "description": "",
+      "description": "We love Medan for its multiculturality. This is the place where you can find various ethnicity; from Melayu, Batak, Chinese, and Indian live together in harmony (well, we do hope it will always be like this). Mira spent her high school days in a place called Kampung Keling (Little India), where the most of orang keling (Indian) live. In this area, there is an oldest Hindu temple in Medan, built in 1884. You'll notice this temple as it has high gate decorated by Gopuram, which usually can be found at the gate of the Hindus temples in South India. We've never entered this temple, as we thought that admiring it from the outside is enough. But some of our friends said that it's beautiful inside. For those who want a little different touch of their visit in Medan, this place is perfect.",
       "around": [{
-        "title": "",
-        "images": "",
-        "latlng": ""
+        "title": "Lontong Medan Kak Lin",
+        "images": "images/eat-kaklin.jpg",
+        "latlng": "https://goo.gl/maps/b7NqpVBty352"
       },{
-        "title": "",
-        "images": "",
-        "latlng": ""
+        "title": "Coffeebox",
+        "images": "images/eat-coffeebox.jpg",
+        "latlng": "https://goo.gl/maps/3xxovxnut8E2"
       }]
     },
     {
@@ -239,17 +239,17 @@
       "images": "images/sight-maria.jpg",
       "credit": "klikhotel.com",
       "cost": "free",
-      "description": "",
+      "description": "At the first glance, you might think that this building is a Hindu temple. But surprisingly, this unique building is a catolic church. You are not completely wrong though, since this building is purposedly for Indian catholic, which explains the strong indian influence to the architecture style. This type of church is the one and only Indonesia, means you can't find it anywhere.",
       "around": [
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Mie Aceh Titi Bobrok",
+          "images": "images/eat-titibobrok.jpg",
+          "latlng": "https://goo.gl/maps/atMe41NiYUx"
         },
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Sop Sumsum Langsa",
+          "images": "images/eat-sumsum.jpg",
+          "latlng": "https://goo.gl/maps/ZKt5wA2xP2r"
         }
       ]
     },
@@ -261,17 +261,17 @@
       "images": "images/sight-tongging.jpg",
       "credit": "Mira Afianti",
       "cost": "free for sight seeing",
-      "description": "",
+      "description": "Danau Toba might not look fabulous in the photos that you saw on Google, but we could guarantee that it looks much more prettier when you see it with your own eyes. Expect to witness Scotland-ish/New Zealand-ish scenery along way there. The greeny hills that surrounded the lake will take you to that kind of view on the scene from Lord of The Rings movies. As this lake is one of the hugest in Asia, you can visit it from various points. The most famous one is Parapat, which is 5 hours journey from Medan, so you need to spare a lots of time. If you only want to have a day-trip, we recommend you to visit Tongging instead, where you can visit Berastagi (the plateau area) and Sipiso-piso Waterfall as well on the same day.",
       "around": [
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Sipiso Piso Waterfall",
+          "images": "images/sipisopiso.jpg",
+          "latlng": "https://goo.gl/maps/Q9SuJorH2tm"
         },
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Berastagi",
+          "images": "images/berastagi.jpg",
+          "latlng": "https://goo.gl/maps/h796A94fa4J2"
         }
       ]
     },
@@ -283,17 +283,17 @@
       "images": "images/sight-lumbini.jpg",
       "credit": "travellink-indonesia.com",
       "cost": "IDR 5k/pax",
-      "description": "",
+      "description": "So you've already been to India and China (if you visit Tjong A Fie mansion and Shri Mariamman temple in Medan), now we'll take you to Myanmar. This Buddhist temple might look familiar as it is resemble the famous Shwedagon Pagoda in Yangon, Myanmar. The pagoda is the second highest pagoda outside of Myanmar. It is located in Berastagi, roughly 2-3 hours journey from Medan.",
       "around": [
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Berastagi",
+          "images": "images/berastagi.jpg",
+          "latlng": "https://goo.gl/maps/h796A94fa4J2"
         },
         {
-          "title": "",
-          "images": "",
-          "latlng": ""
+          "title": "Danau Toba",
+          "images": "images/sight-tongging.jpg",
+          "latlng": "https://goo.gl/maps/nDFLFuEfDAQ2"
         }
       ]
     }
@@ -372,6 +372,7 @@
     "time": "Saturday, October 20th 2018",
     "place": "Gelanggang Mahasiswa UIN",
     "latlng": "",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat nibh a orci placerat, id porttitor elit interdum. Integer egestas erat et fringilla elementum. Vivamus dictum tempus ex sed venenatis. Fusce cursus id mi in volutpat. Nam et hendrerit ex. Etiam non ante id libero aliquam aliquam id id enim. Praesent eu ex dapibus, efficitur nulla vel, fermentum risus. In massa ante, mollis nec magna ac, aliquet mattis ante. Maecenas ligula justo, dapibus in dui ac, bibendum sagittis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula hendrerit eros a feugiat. Maecenas id dapibus purus, at tincidunt justo. Pellentesque et aliquet massa. Fusce vehicula cursus elit, vitae varius mauris tristique ut.\nCras eget magna sit amet tellus hendrerit cursus. Nunc gravida nisl nec tortor aliquet ullamcorper vel in nulla. Sed neque nunc, imperdiet quis ornare at, congue sit amet elit. Integer ornare sagittis lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla vitae gravida massa, sit amet accumsan dui. Nullam feugiat metus quis dictum pharetra. Maecenas nisl tellus, maximus eu massa vel, iaculis iaculis diam. Morbi nec nisl quis tellus molestie varius vel vel mauris. Vivamus vitae facilisis lorem. Sed varius diam justo, at pellentesque arcu rutrum sed. Aenean eu gravida purus. Nunc tincidunt vel sem in pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dolor quis turpis semper tristique. Fusce facilisis enim eget nisi tincidunt mollis."
+    "images": "images/mirajunda-kafe.jpg",
+    "paragraph": "Everytime our friend came to medan, we were always happy to give them recommendations. We might even guide them around ourselves should the occassion permits, and we love nothing more than showing you around Medan for this occassion. Unfortunately, some parents and in laws might got heart attack if we go and disappear on them to guide you guys. Therefore We create this site as replacement for any unanswered texts and phone calls that might or might not come.<br />If you think you need input on what to do in Medan (aside from attending some wedding), then click, swipe, see it all about. Perhaps you might find some interesting things to try from our list.<br /><br /><a href='#airport'>Click Here</a> to start reading our list."
   }
 }]

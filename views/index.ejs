@@ -262,10 +262,18 @@
           </div>
         </div>
         <div class="slide" data-anchor="details" id="slide-detail">
-          <div class="fp-bg"></div>
           <div class="container col-md-10">
-            <div class="invitation-paragraph">
-              <%- invitation.paragraph %>
+            <div class="content-body row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="gambar col-md-12">
+                    <img class="invitation-img" src="<%= invitation.images %>"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h6 class="invitation-paragraph"><%- invitation.paragraph %></h6>
+              </div>
             </div>
           </div>
         </div>
