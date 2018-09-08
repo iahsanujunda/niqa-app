@@ -369,13 +369,13 @@ h6 .cost {
 
 .fp-controlArrow {
   border: none;
-  width: 50px !important;
-  height: 60px !important;
+  width: 30px !important;
+  height: 30px !important;
   cursor: pointer;
 }
 
 .fp-controlArrow.fp-prev {
-  left: -10px;
+  left: 0;
   background-image: url('../images/arrow.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,12 +492,12 @@ h6 .cost {
   }
 
   #para-bus {
-    top: 17%;
+    top: -2%;
     right: 12%;
   }
 
   #para-phone {
-    top: 17%;
+    top: -2%;
     left: 17%;
   }
 
@@ -583,6 +583,29 @@ h6 .cost {
 
   .fp-slidesNav.fp-bottom {
     bottom: 0;
+  }
+
+  .invitation-content {
+    margin-top: 2em;
+  }
+
+  .invitation-img {
+    object-fit: cover;
+    display: block;
+    height: 200px !important;
+    width: 89%;
+    margin: 0 auto;
+  }
+  
+  .invitation-paragraph {
+    font-size: 1.8;
+    line-height: 1.5em;
+    margin: 0 1.3em;
+  }
+
+  #slide-detail .container .content-body {
+    position: relative;
+    top: -3em;
   }
 }
 
