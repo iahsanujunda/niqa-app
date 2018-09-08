@@ -461,6 +461,10 @@ h6 .cost {
   font-size: 35px;
 }
 
+#inv-time {
+  margin-top: 1.3em;
+}
+
 .invitation-img {
   position: relative;
   object-fit: cover;
