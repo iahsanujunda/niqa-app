@@ -9,7 +9,7 @@ $(document).ready(function() {
     scrollOverflow: true,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
-    parallaxKey: 'c2xlZXB5LXRhaWdhLTM2ODUyLmhlcm9rdWFwcC5jb21fajZBY0dGeVlXeHNZWGc9cDFT',
+    parallaxKey: 'YWhzYW51anVuZGEubWlyYWFmaWFudGkuY29tX2h6aGNHRnlZV3hzWVhnPXRNeA==',
     parallax: true,
     parallaxOptions: { type: 'reveal', percentage: 30, property: 'translate'},
 
