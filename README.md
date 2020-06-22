@@ -4,7 +4,7 @@
 <img src="./wed.png" width="60%" alt="jund-clothing" />
 </p>
 
-A simple web app built on [Node.js](https://nodejs.org) and deployed on heroku.
+A simple web app built on [Node.js](https://nodejs.org) and deployed on heroku. Live version is hosted [here](http://ahsanujunda.miraafianti.com/).
 
 ## Technologies
 
