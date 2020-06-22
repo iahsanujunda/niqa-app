@@ -24,4 +24,5 @@ To get started, you have to make sure that you have [NPM](https://docs.npmjs.com
 This app can be run on your local machine.
 
 > To run the app locally, run this command
+
     npm start
